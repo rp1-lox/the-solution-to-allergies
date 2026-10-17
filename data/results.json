@@ -1,39 +1,266 @@
 {
  "version": 1,
  "items": {
-  "cows-milk": {
+  "agar": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209157820
+  },
+  "agave": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209106299
+  },
+  "allspice": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208964596
+  },
+  "almond": {
+   "status": "intolerance",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208700294
+  },
+  "amaranth": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208652606
+  },
+  "anchovy": {
    "status": "reaction",
    "symptoms": [
     "anaphylaxis"
    ],
    "note": "Confirmed allergen",
    "updated": 0
+  },
+  "annatto": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209199865
+  },
+  "apple": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208854329
+  },
+  "apple-cider-vinegar": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209136572
+  },
+  "apricot": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208874112
+  },
+  "arrowroot": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209175081
+  },
+  "artichoke": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208826951
+  },
+  "arugula": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208798267
+  },
+  "asparagus": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208825151
+  },
+  "avocado": {
+   "status": "reaction",
+   "symptoms": [
+    "acne",
+    "swelling",
+    "nausea",
+    "diarrhea"
+   ],
+   "note": "",
+   "updated": 1792208909895
+  },
+  "avocado-oil": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209095198
+  },
+  "bakers-yeast": {
+   "status": "reaction",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208853083
+  },
+  "baking-powder": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209202599
+  },
+  "baking-soda": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209201999
+  },
+  "balsamic-vinegar": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209137408
+  },
+  "banana": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208856584
+  },
+  "barley": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208619342
+  },
+  "basil": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208923067
+  },
+  "bay-leaf": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208936349
+  },
+  "beef": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208584311
+  },
+  "beef-tallow": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209101066
+  },
+  "beet": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208810033
+  },
+  "bell-pepper": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208771734
+  },
+  "bison": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208592229
+  },
+  "black-bean": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208676807
+  },
+  "black-pepper": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208939772
+  },
+  "black-tea": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209129349
+  },
+  "blackberry": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208866707
+  },
+  "blueberry": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208865228
+  },
+  "bok-choy": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208802805
+  },
+  "brazil-nut": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208724149
+  },
+  "broccoli": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208787334
+  },
+  "brown-rice": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208639784
+  },
+  "brown-sugar": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209102683
+  },
+  "brussels-sprouts": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208794593
+  },
+  "buckwheat": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208647199
+  },
+  "bulgur": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208629725
   },
   "butter": {
-   "status": "reaction",
-   "symptoms": [
-    "anaphylaxis"
-   ],
-   "note": "Confirmed allergen",
-   "updated": 0
-  },
-  "cream": {
-   "status": "reaction",
-   "symptoms": [
-    "anaphylaxis"
-   ],
-   "note": "Confirmed allergen",
-   "updated": 0
-  },
-  "sour-cream": {
-   "status": "reaction",
-   "symptoms": [
-    "anaphylaxis"
-   ],
-   "note": "Confirmed allergen",
-   "updated": 0
-  },
-  "yogurt": {
    "status": "reaction",
    "symptoms": [
     "anaphylaxis"
@@ -49,6 +276,130 @@
    "note": "Confirmed allergen",
    "updated": 0
   },
+  "butternut-squash": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208805464
+  },
+  "button-mushroom": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208847149
+  },
+  "cabbage": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208793684
+  },
+  "cacao": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209134261
+  },
+  "cane-sugar": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209102011
+  },
+  "canola-oil": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208971083
+  },
+  "cantaloupe": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208891896
+  },
+  "cardamom": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208951850
+  },
+  "carmine": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209200729
+  },
+  "carob": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208698498
+  },
+  "carrageenan": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209156032
+  },
+  "carrot": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208782434
+  },
+  "casein": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "cashew": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208703716
+  },
+  "cassava": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208839367
+  },
+  "catfish": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "cauliflower": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208788166
+  },
+  "cayenne": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208947005
+  },
+  "celeriac": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208786534
+  },
+  "celery": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208783301
+  },
   "cheddar": {
    "status": "reaction",
    "symptoms": [
@@ -57,7 +408,103 @@
    "note": "Confirmed allergen",
    "updated": 0
   },
-  "mozzarella": {
+  "cherry": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208869648
+  },
+  "chestnut": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208728346
+  },
+  "chia-seed": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208750000
+  },
+  "chicken": {
+   "status": "reaction",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208595044
+  },
+  "chicken-egg": {
+   "status": "reaction",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208579531
+  },
+  "chickpea": {
+   "status": "reaction",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208668409
+  },
+  "chili-pepper": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208773084
+  },
+  "chives": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208935200
+  },
+  "cilantro": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208924349
+  },
+  "cinnamon": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208940766
+  },
+  "citric-acid": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209190347
+  },
+  "clam": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208607735
+  },
+  "clove": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208950773
+  },
+  "coconut": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208729351
+  },
+  "coconut-milk": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208732699
+  },
+  "coconut-oil": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209092367
+  },
+  "cod": {
    "status": "reaction",
    "symptoms": [
     "anaphylaxis"
@@ -65,7 +512,95 @@
    "note": "Confirmed allergen",
    "updated": 0
   },
-  "parmesan": {
+  "coffee": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209124633
+  },
+  "collard-greens": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208801651
+  },
+  "coriander-seed": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208953323
+  },
+  "corn": {
+   "status": "reaction",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208642034
+  },
+  "corn-oil": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209097871
+  },
+  "corn-syrup": {
+   "status": "reaction",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209109809
+  },
+  "cornmeal": {
+   "status": "reaction",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208643213
+  },
+  "cornstarch": {
+   "status": "reaction",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209168732
+  },
+  "cottage-cheese": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "couscous": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208637934
+  },
+  "cows-milk": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "crab": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208602663
+  },
+  "cranberry": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208868051
+  },
+  "crawfish": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208606497
+  },
+  "cream": {
    "status": "reaction",
    "symptoms": [
     "anaphylaxis"
@@ -81,21 +616,107 @@
    "note": "Confirmed allergen",
    "updated": 0
   },
-  "cottage-cheese": {
-   "status": "reaction",
-   "symptoms": [
-    "anaphylaxis"
-   ],
-   "note": "Confirmed allergen",
-   "updated": 0
+  "cucumber": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208803866
   },
-  "ricotta": {
+  "cumin": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208941865
+  },
+  "date": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208897409
+  },
+  "dill": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208930633
+  },
+  "dragon-fruit": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208922205
+  },
+  "duck": {
    "status": "reaction",
-   "symptoms": [
-    "anaphylaxis"
-   ],
-   "note": "Confirmed allergen",
-   "updated": 0
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208596897
+  },
+  "duck-egg": {
+   "status": "reaction",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208581851
+  },
+  "edamame": {
+   "status": "intolerance",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208666787
+  },
+  "egg-white": {
+   "status": "reaction",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208580397
+  },
+  "egg-yolk": {
+   "status": "reaction",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208581084
+  },
+  "eggplant": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208772464
+  },
+  "erythritol": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209116948
+  },
+  "farro": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208627405
+  },
+  "fava-bean": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208689351
+  },
+  "fennel": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208833217
+  },
+  "fennel-seed": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208954377
+  },
+  "fenugreek": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208966082
   },
   "feta": {
    "status": "reaction",
@@ -105,183 +726,13 @@
    "note": "Confirmed allergen",
    "updated": 0
   },
-  "swiss-cheese": {
-   "status": "reaction",
-   "symptoms": [
-    "anaphylaxis"
-   ],
-   "note": "Confirmed allergen",
-   "updated": 0
+  "fig": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208896247
   },
-  "ghee": {
-   "status": "reaction",
-   "symptoms": [
-    "anaphylaxis"
-   ],
-   "note": "Confirmed allergen",
-   "updated": 0
-  },
-  "whey": {
-   "status": "reaction",
-   "symptoms": [
-    "anaphylaxis"
-   ],
-   "note": "Confirmed allergen",
-   "updated": 0
-  },
-  "casein": {
-   "status": "reaction",
-   "symptoms": [
-    "anaphylaxis"
-   ],
-   "note": "Confirmed allergen",
-   "updated": 0
-  },
-  "goats-milk": {
-   "status": "reaction",
-   "symptoms": [
-    "anaphylaxis"
-   ],
-   "note": "Confirmed allergen",
-   "updated": 0
-  },
-  "sheeps-milk": {
-   "status": "reaction",
-   "symptoms": [
-    "anaphylaxis"
-   ],
-   "note": "Confirmed allergen",
-   "updated": 0
-  },
-  "salmon": {
-   "status": "reaction",
-   "symptoms": [
-    "anaphylaxis"
-   ],
-   "note": "Confirmed allergen",
-   "updated": 0
-  },
-  "tuna": {
-   "status": "reaction",
-   "symptoms": [
-    "anaphylaxis"
-   ],
-   "note": "Confirmed allergen",
-   "updated": 0
-  },
-  "cod": {
-   "status": "reaction",
-   "symptoms": [
-    "anaphylaxis"
-   ],
-   "note": "Confirmed allergen",
-   "updated": 0
-  },
-  "tilapia": {
-   "status": "reaction",
-   "symptoms": [
-    "anaphylaxis"
-   ],
-   "note": "Confirmed allergen",
-   "updated": 0
-  },
-  "halibut": {
-   "status": "reaction",
-   "symptoms": [
-    "anaphylaxis"
-   ],
-   "note": "Confirmed allergen",
-   "updated": 0
-  },
-  "trout": {
-   "status": "reaction",
-   "symptoms": [
-    "anaphylaxis"
-   ],
-   "note": "Confirmed allergen",
-   "updated": 0
-  },
-  "sardine": {
-   "status": "reaction",
-   "symptoms": [
-    "anaphylaxis"
-   ],
-   "note": "Confirmed allergen",
-   "updated": 0
-  },
-  "anchovy": {
-   "status": "reaction",
-   "symptoms": [
-    "anaphylaxis"
-   ],
-   "note": "Confirmed allergen",
-   "updated": 0
-  },
-  "mackerel": {
-   "status": "reaction",
-   "symptoms": [
-    "anaphylaxis"
-   ],
-   "note": "Confirmed allergen",
-   "updated": 0
-  },
-  "catfish": {
-   "status": "reaction",
-   "symptoms": [
-    "anaphylaxis"
-   ],
-   "note": "Confirmed allergen",
-   "updated": 0
-  },
-  "pollock": {
-   "status": "reaction",
-   "symptoms": [
-    "anaphylaxis"
-   ],
-   "note": "Confirmed allergen",
-   "updated": 0
-  },
-  "haddock": {
-   "status": "reaction",
-   "symptoms": [
-    "anaphylaxis"
-   ],
-   "note": "Confirmed allergen",
-   "updated": 0
-  },
-  "swordfish": {
-   "status": "reaction",
-   "symptoms": [
-    "anaphylaxis"
-   ],
-   "note": "Confirmed allergen",
-   "updated": 0
-  },
-  "mahi-mahi": {
-   "status": "reaction",
-   "symptoms": [
-    "anaphylaxis"
-   ],
-   "note": "Confirmed allergen",
-   "updated": 0
-  },
-  "herring": {
-   "status": "reaction",
-   "symptoms": [
-    "anaphylaxis"
-   ],
-   "note": "Confirmed allergen",
-   "updated": 0
-  },
-  "sea-bass": {
-   "status": "reaction",
-   "symptoms": [
-    "anaphylaxis"
-   ],
-   "note": "Confirmed allergen",
-   "updated": 0
-  },
-  "flounder": {
+  "fish-oil": {
    "status": "reaction",
    "symptoms": [
     "anaphylaxis"
@@ -297,7 +748,757 @@
    "note": "Confirmed allergen",
    "updated": 0
   },
-  "fish-oil": {
+  "flaxseed": {
+   "status": "intolerance",
+   "symptoms": [
+    "acne",
+    "stomach",
+    "diarrhea"
+   ],
+   "note": "",
+   "updated": 1792208761642
+  },
+  "flounder": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "garlic": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208775859
+  },
+  "gelatin": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209140609
+  },
+  "ghee": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "ginger": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208944461
+  },
+  "goat": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208590168
+  },
+  "goats-milk": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "goose": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208598334
+  },
+  "grape": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208868833
+  },
+  "grapefruit": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208863049
+  },
+  "green-bean": {
+   "status": "intolerance",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208692571
+  },
+  "green-pea": {
+   "status": "intolerance",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208684365
+  },
+  "green-tea": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209130598
+  },
+  "ground-mustard": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208957534
+  },
+  "guar-gum": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209149578
+  },
+  "guava": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208921308
+  },
+  "gum-arabic": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209153081
+  },
+  "haddock": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "halibut": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "hazelnut": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208722682
+  },
+  "hemp-seed": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208764499
+  },
+  "herring": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "honey": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209103508
+  },
+  "honeydew": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208893233
+  },
+  "jicama": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208834499
+  },
+  "kale": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208795501
+  },
+  "kidney-bean": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208678798
+  },
+  "kiwi": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208887984
+  },
+  "kombu": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209121233
+  },
+  "lamb": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208587251
+  },
+  "lard": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209100279
+  },
+  "leek": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208778961
+  },
+  "lemon": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208860484
+  },
+  "lemongrass": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208939045
+  },
+  "lentil": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208675500
+  },
+  "lettuce": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208797438
+  },
+  "lima-bean": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208681634
+  },
+  "lime": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208861040
+  },
+  "lobster": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208603205
+  },
+  "locust-bean-gum": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209151148
+  },
+  "lupin": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208697366
+  },
+  "lychee": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208919066
+  },
+  "macadamia": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208725404
+  },
+  "mackerel": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "mahi-mahi": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "maltodextrin": {
+   "status": "intolerance",
+   "symptoms": [
+    "acne"
+   ],
+   "note": "",
+   "updated": 1792209186858
+  },
+  "mango": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208878649
+  },
+  "maple-syrup": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209104250
+  },
+  "millet": {
+   "status": "intolerance",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208649850
+  },
+  "mint": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208927009
+  },
+  "molasses": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209107631
+  },
+  "monk-fruit": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209115348
+  },
+  "mozzarella": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "msg": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209191971
+  },
+  "mung-bean": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208688501
+  },
+  "mussel": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208608661
+  },
+  "mustard-seed": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208767743
+  },
+  "navy-bean": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208680768
+  },
+  "nectarine": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208877784
+  },
+  "nori": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209120048
+  },
+  "nutmeg": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208949493
+  },
+  "nutritional-yeast": {
+   "status": "reaction",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208852200
+  },
+  "oats": {
+   "status": "reaction",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208622933
+  },
+  "octopus": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208615501
+  },
+  "okra": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208830663
+  },
+  "olive": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208914862
+  },
+  "olive-oil": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208967932
+  },
+  "onion": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208774901
+  },
+  "orange": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208857634
+  },
+  "oregano": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208929270
+  },
+  "oyster": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208609882
+  },
+  "oyster-mushroom": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208850348
+  },
+  "palm-oil": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209098922
+  },
+  "papaya": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208880832
+  },
+  "paprika": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208945383
+  },
+  "parmesan": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "parsley": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208925184
+  },
+  "parsnip": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208816013
+  },
+  "passion-fruit": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208917032
+  },
+  "peach": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208870897
+  },
+  "peanut": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208655150
+  },
+  "peanut-oil": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209096248
+  },
+  "pear": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208855117
+  },
+  "pecan": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208715630
+  },
+  "pectin": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209161299
+  },
+  "persimmon": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208920000
+  },
+  "pine-nut": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208726057
+  },
+  "pineapple": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208879439
+  },
+  "pinto-bean": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208679900
+  },
+  "pistachio": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208718911
+  },
+  "plum": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208871712
+  },
+  "pollock": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "pomegranate": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208894667
+  },
+  "poppy-seed": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208766227
+  },
+  "pork": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208585036
+  },
+  "portobello": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208848784
+  },
+  "potato": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208770974
+  },
+  "potato-starch": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209172182
+  },
+  "pumpkin": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208806977
+  },
+  "pumpkin-seed": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208747617
+  },
+  "quail-egg": {
+   "status": "reaction",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208582469
+  },
+  "quinoa": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208644617
+  },
+  "rabbit": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208593851
+  },
+  "radish": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208813349
+  },
+  "raspberry": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208866165
+  },
+  "red-wine-vinegar": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209139293
+  },
+  "rice-vinegar": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209138427
+  },
+  "ricotta": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "rosemary": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208927861
+  },
+  "rye": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208621134
+  },
+  "saffron": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208961300
+  },
+  "sage": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208933767
+  },
+  "salmon": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "sardine": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "scallion": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208781034
+  },
+  "scallop": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208611400
+  },
+  "sea-bass": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "semolina": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208631963
+  },
+  "sesame-oil": {
    "status": "reaction",
    "symptoms": [
     "anaphylaxis"
@@ -313,6 +1514,179 @@
    "note": "Confirmed allergen",
    "updated": 0
   },
+  "shallot": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208777494
+  },
+  "sheeps-milk": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "shiitake": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208848015
+  },
+  "shrimp": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208601183
+  },
+  "snow-pea": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208695191
+  },
+  "sorghum": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208651629
+  },
+  "sour-cream": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "soy-lecithin": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209165341
+  },
+  "soybean": {
+   "status": "intolerance",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208660700
+  },
+  "soybean-oil": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209086766
+  },
+  "spelt": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208626292
+  },
+  "spinach": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208796451
+  },
+  "split-pea": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208686451
+  },
+  "squid": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208613666
+  },
+  "star-anise": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208962430
+  },
+  "stevia": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209113158
+  },
+  "strawberry": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208864067
+  },
+  "sulfites": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209197615
+  },
+  "sumac": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208967127
+  },
+  "sunflower-lecithin": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209166825
+  },
+  "sunflower-oil": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209093333
+  },
+  "sunflower-seed": {
+   "status": "intolerance",
+   "symptoms": [
+    "diarrhea",
+    "headache"
+   ],
+   "note": "",
+   "updated": 1792208743816
+  },
+  "sweet-corn": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208836736
+  },
+  "sweet-potato": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208774233
+  },
+  "swiss-chard": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208800068
+  },
+  "swiss-cheese": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "swordfish": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
   "tahini": {
    "status": "reaction",
    "symptoms": [
@@ -321,13 +1695,185 @@
    "note": "Confirmed allergen",
    "updated": 0
   },
-  "sesame-oil": {
+  "tapioca-starch": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209172958
+  },
+  "taro": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208845726
+  },
+  "tarragon": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208937629
+  },
+  "teff": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208653888
+  },
+  "tempeh": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208664298
+  },
+  "thyme": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208928617
+  },
+  "tilapia": {
    "status": "reaction",
    "symptoms": [
     "anaphylaxis"
    ],
    "note": "Confirmed allergen",
    "updated": 0
+  },
+  "tofu": {
+   "status": "intolerance",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208662134
+  },
+  "tomato": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208769813
+  },
+  "trout": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "tuna": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "turkey": {
+   "status": "reaction",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208596017
+  },
+  "turmeric": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208942834
+  },
+  "turnip": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208814933
+  },
+  "vanilla": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208960100
+  },
+  "venison": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208591401
+  },
+  "wakame": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209122145
+  },
+  "walnut": {
+   "status": "untried",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208712124
+  },
+  "watermelon": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208891034
+  },
+  "wheat": {
+   "status": "reaction",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208617082
+  },
+  "whey": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "white-rice": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208639033
+  },
+  "white-vinegar": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209135715
+  },
+  "wild-rice": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208640398
+  },
+  "xanthan-gum": {
+   "status": "intolerance",
+   "symptoms": [
+    "acne"
+   ],
+   "note": "",
+   "updated": 1792209145867
+  },
+  "yeast-extract": {
+   "status": "reaction",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792209193459
+  },
+  "yogurt": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "zucchini": {
+   "status": "safe",
+   "symptoms": [],
+   "note": "",
+   "updated": 1792208804584
   }
  }
 }
