@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Allergy Swipe</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <h1>Allergy Swipe</h1>
+    <span id="sync" class="sync" title="Sync status">Local only</span>
+  </header>
+
+  <nav class="tabs" role="tablist">
+    <button role="tab" data-view="swipe" aria-selected="true">Swipe</button>
+    <button role="tab" data-view="list">My list</button>
+    <button role="tab" data-view="settings">Settings</button>
+  </nav>
+
+  <main>
+    <!-- Swipe -->
+    <section id="view-swipe" class="view">
+      <div class="deck-bar">
+        <select id="deck-cat" aria-label="Category"></select>
+        <span id="deck-count" class="muted"></span>
+      </div>
+
+      <div class="stage">
+        <div id="deck" class="deck"></div>
+        <div id="empty" class="empty" hidden>
+          <p>Nothing left in this category.</p>
+          <p class="muted">Pick another category or check <em>My list</em>.</p>
+        </div>
+      </div>
+
+      <div class="actions">
+        <button class="act reaction" data-dir="left" title="Reaction (←)"><span>←</span>Reaction</button>
+        <button class="act untried" data-dir="down" title="Not tried (↓)"><span>↓</span>Not tried</button>
+        <button class="act intolerance" data-dir="up" title="Intolerance (↑)"><span>↑</span>Intolerance</button>
+        <button class="act safe" data-dir="right" title="Safe (→)"><span>→</span>Safe</button>
+      </div>
+      <div class="sub-actions">
+        <button id="undo" class="link" disabled>Undo</button>
+      </div>
+
+      <div id="sheet" class="sheet" hidden>
+        <div class="sheet-head">
+          <strong id="sheet-title"></strong>
+          <button id="sheet-done" class="link">Done</button>
+        </div>
+        <div id="sheet-symptoms" class="chips"></div>
+        <input id="sheet-note" type="text" placeholder="Note (optional)" autocomplete="off">
+      </div>
+    </section>
+
+    <!-- List -->
+    <section id="view-list" class="view" hidden>
+      <div id="summary" class="summary"></div>
+      <input id="search" type="search" placeholder="Search ingredients or tags" autocomplete="off">
+      <div id="status-filter" class="chips"></div>
+      <div id="list"></div>
+    </section>
+
+    <!-- Settings -->
+    <section id="view-settings" class="view" hidden>
+      <h2>Save to GitHub</h2>
+      <p class="muted">Results are saved to <code>data/results.json</code> in your repo. Create a
+        <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">fine-grained token</a>
+        with access to only this repo and <b>Contents: Read and write</b>. The token stays in this browser.</p>
+      <form id="gh-form" class="form">
+        <label>Owner <input name="owner" required></label>
+        <label>Repo <input name="repo" required></label>
+        <label>Branch <input name="branch" required></label>
+        <label>Token <input name="token" type="password" autocomplete="off" placeholder="github_pat_..."></label>
+        <div class="row">
+          <button type="submit" class="btn">Save &amp; connect</button>
+          <button type="button" id="gh-sync" class="btn ghost">Sync now</button>
+          <button type="button" id="gh-forget" class="btn ghost">Forget token</button>
+        </div>
+        <p id="gh-msg" class="muted"></p>
+      </form>
+
+      <h2>Backup</h2>
+      <div class="row">
+        <button id="export" class="btn ghost">Export JSON</button>
+        <label class="btn ghost">Import JSON <input id="import" type="file" accept="application/json" hidden></label>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="edit">
+    <form method="dialog" class="form">
+      <h3 id="edit-title"></h3>
+      <p id="edit-meta" class="muted"></p>
+      <div id="edit-status" class="chips"></div>
+      <div id="edit-symptoms" class="chips"></div>
+      <input id="edit-note" type="text" placeholder="Note (optional)" autocomplete="off">
+      <div class="row">
+        <button value="save" class="btn">Save</button>
+        <button value="clear" class="btn ghost">Clear</button>
+        <button value="cancel" class="btn ghost">Cancel</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>

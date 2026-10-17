@@ -1,0 +1,333 @@
+{
+ "version": 1,
+ "items": {
+  "cows-milk": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "butter": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "cream": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "sour-cream": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "yogurt": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "buttermilk": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "cheddar": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "mozzarella": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "parmesan": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "cream-cheese": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "cottage-cheese": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "ricotta": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "feta": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "swiss-cheese": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "ghee": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "whey": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "casein": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "goats-milk": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "sheeps-milk": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "salmon": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "tuna": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "cod": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "tilapia": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "halibut": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "trout": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "sardine": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "anchovy": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "mackerel": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "catfish": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "pollock": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "haddock": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "swordfish": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "mahi-mahi": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "herring": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "sea-bass": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "flounder": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "fish-sauce": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "fish-oil": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "sesame-seed": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "tahini": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  },
+  "sesame-oil": {
+   "status": "reaction",
+   "symptoms": [
+    "anaphylaxis"
+   ],
+   "note": "Confirmed allergen",
+   "updated": 0
+  }
+ }
+}
