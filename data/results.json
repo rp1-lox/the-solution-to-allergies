@@ -21,9 +21,12 @@
   },
   "almond": {
    "status": "intolerance",
-   "symptoms": [],
+   "symptoms": [
+    "anger",
+    "brainfog"
+   ],
    "note": "",
-   "updated": 1792208700294
+   "updated": 1792210148354
   },
   "amaranth": {
    "status": "untried",
@@ -660,9 +663,12 @@
   },
   "edamame": {
    "status": "intolerance",
-   "symptoms": [],
+   "symptoms": [
+    "anger",
+    "brainfog"
+   ],
    "note": "",
-   "updated": 1792208666787
+   "updated": 1792210148354
   },
   "egg-white": {
    "status": "reaction",
@@ -752,11 +758,13 @@
    "status": "intolerance",
    "symptoms": [
     "acne",
-    "stomach",
-    "diarrhea"
+    "anger",
+    "brainfog",
+    "diarrhea",
+    "stomach"
    ],
    "note": "",
-   "updated": 1792208761642
+   "updated": 1792210148354
   },
   "flounder": {
    "status": "reaction",
@@ -826,15 +834,21 @@
   },
   "green-bean": {
    "status": "intolerance",
-   "symptoms": [],
+   "symptoms": [
+    "anger",
+    "brainfog"
+   ],
    "note": "",
-   "updated": 1792208692571
+   "updated": 1792210148354
   },
   "green-pea": {
    "status": "intolerance",
-   "symptoms": [],
+   "symptoms": [
+    "anger",
+    "brainfog"
+   ],
    "note": "",
-   "updated": 1792208684365
+   "updated": 1792210148354
   },
   "green-tea": {
    "status": "untried",
@@ -1047,10 +1061,12 @@
   "maltodextrin": {
    "status": "intolerance",
    "symptoms": [
-    "acne"
+    "acne",
+    "anger",
+    "brainfog"
    ],
    "note": "",
-   "updated": 1792209186858
+   "updated": 1792210148354
   },
   "mango": {
    "status": "safe",
@@ -1066,9 +1082,12 @@
   },
   "millet": {
    "status": "intolerance",
-   "symptoms": [],
+   "symptoms": [
+    "anger",
+    "brainfog"
+   ],
    "note": "",
-   "updated": 1792208649850
+   "updated": 1792210148354
   },
   "mint": {
    "status": "safe",
@@ -1568,9 +1587,12 @@
   },
   "soybean": {
    "status": "intolerance",
-   "symptoms": [],
+   "symptoms": [
+    "anger",
+    "brainfog"
+   ],
    "note": "",
-   "updated": 1792208660700
+   "updated": 1792210148354
   },
   "soybean-oil": {
    "status": "untried",
@@ -1647,11 +1669,13 @@
   "sunflower-seed": {
    "status": "intolerance",
    "symptoms": [
+    "anger",
+    "brainfog",
     "diarrhea",
     "headache"
    ],
    "note": "",
-   "updated": 1792208743816
+   "updated": 1792210148354
   },
   "sweet-corn": {
    "status": "untried",
@@ -1741,9 +1765,12 @@
   },
   "tofu": {
    "status": "intolerance",
-   "symptoms": [],
+   "symptoms": [
+    "anger",
+    "brainfog"
+   ],
    "note": "",
-   "updated": 1792208662134
+   "updated": 1792210148354
   },
   "tomato": {
    "status": "safe",
@@ -1850,10 +1877,12 @@
   "xanthan-gum": {
    "status": "intolerance",
    "symptoms": [
-    "acne"
+    "acne",
+    "anger",
+    "brainfog"
    ],
    "note": "",
-   "updated": 1792209145867
+   "updated": 1792210148354
   },
   "yeast-extract": {
    "status": "reaction",

@@ -15,6 +15,7 @@
 
   <nav class="tabs" role="tablist">
     <button role="tab" data-view="swipe" aria-selected="true">Swipe</button>
+    <button role="tab" data-view="check">Check</button>
     <button role="tab" data-view="list">My list</button>
     <button role="tab" data-view="settings">Settings</button>
   </nav>
@@ -53,6 +54,26 @@
         <div id="sheet-symptoms" class="chips"></div>
         <input id="sheet-note" type="text" placeholder="Note (optional)" autocomplete="off">
       </div>
+    </section>
+
+    <!-- Check -->
+    <section id="view-check" class="view" hidden>
+      <div class="row">
+        <button id="scan-start" class="btn">Scan barcode</button>
+        <form id="code-form" class="code-form">
+          <input id="code" inputmode="numeric" placeholder="or type barcode" autocomplete="off">
+          <button class="btn ghost">Look up</button>
+        </form>
+      </div>
+      <div id="scan" class="scan" hidden>
+        <video id="scan-video" playsinline muted></video>
+        <button id="scan-stop" class="btn ghost">Cancel</button>
+      </div>
+      <p id="check-msg" class="muted"></p>
+      <div id="check-product"></div>
+      <textarea id="check-text" rows="5" placeholder="Paste an ingredient list, e.g. Whole grain oats, corn starch, sugar, salt…"></textarea>
+      <div class="sub-actions"><button id="check-clear" class="link">Clear</button></div>
+      <div id="check-result"></div>
     </section>
 
     <!-- List -->
@@ -106,5 +127,6 @@
   </dialog>
 
   <script src="app.js"></script>
+  <script src="checker.js"></script>
 </body>
 </html>

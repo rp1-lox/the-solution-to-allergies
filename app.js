@@ -14,7 +14,7 @@ const SYMPTOMS = {
   hives: 'Hives', itching: 'Itching', rash: 'Rash', acne: 'Acne / pimples', swelling: 'Swelling',
   throat: 'Throat tightness', breathing: 'Trouble breathing', stomach: 'Stomach pain',
   nausea: 'Nausea / vomiting', diarrhea: 'Diarrhea', bloating: 'Bloating', headache: 'Headache',
-  anaphylaxis: 'Anaphylaxis',
+  anaphylaxis: 'Anaphylaxis', brainfog: 'Brain fog', anger: 'Irritability / anger',
 };
 const SWIPE_THRESHOLD = 90;
 
@@ -414,6 +414,7 @@ function render() {
   renderSummary();
   renderFilter();
   renderList();
+  if (window.runCheck) runCheck();
 }
 
 function showView(name) {

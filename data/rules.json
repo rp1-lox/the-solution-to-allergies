@@ -1,0 +1,1740 @@
+{
+ "neutral": [
+  "water",
+  "filtered water",
+  "carbonated water",
+  "purified water",
+  "salt",
+  "sea salt",
+  "kosher salt",
+  "iodized salt",
+  "potassium iodide",
+  "potassium chloride",
+  "calcium chloride",
+  "magnesium chloride",
+  "sodium chloride",
+  "calcium carbonate",
+  "calcium sulfate",
+  "calcium phosphate",
+  "tricalcium phosphate",
+  "dicalcium phosphate",
+  "monocalcium phosphate",
+  "tripotassium phosphate",
+  "dipotassium phosphate",
+  "monopotassium phosphate",
+  "sodium phosphate",
+  "disodium phosphate",
+  "trisodium phosphate",
+  "sodium hexametaphosphate",
+  "sodium tripolyphosphate",
+  "sodium acid pyrophosphate",
+  "sodium aluminum phosphate",
+  "sodium aluminum sulfate",
+  "ammonium bicarbonate",
+  "niacin",
+  "niacinamide",
+  "reduced iron",
+  "iron",
+  "ferrous sulfate",
+  "ferrous fumarate",
+  "ferric orthophosphate",
+  "ferric phosphate",
+  "electrolytic iron",
+  "thiamine",
+  "thiamin",
+  "thiamine mononitrate",
+  "thiamin mononitrate",
+  "thiamine hydrochloride",
+  "riboflavin",
+  "folic acid",
+  "folate",
+  "pyridoxine hydrochloride",
+  "pyridoxine",
+  "vitamin a",
+  "vitamin a palmitate",
+  "palmitate",
+  "retinyl palmitate",
+  "vitamin d",
+  "vitamin d2",
+  "vitamin d3",
+  "cholecalciferol",
+  "vitamin b12",
+  "cyanocobalamin",
+  "vitamin b6",
+  "vitamin b1",
+  "vitamin b2",
+  "a b vitamin",
+  "b vitamins",
+  "biotin",
+  "pantothenic acid",
+  "calcium pantothenate",
+  "zinc",
+  "zinc oxide",
+  "zinc sulfate",
+  "magnesium oxide",
+  "copper sulfate",
+  "manganese sulfate",
+  "potassium sorbate",
+  "sodium benzoate",
+  "sorbic acid",
+  "calcium propionate",
+  "sodium propionate",
+  "benzoic acid",
+  "sodium nitrite",
+  "sodium nitrate",
+  "sodium hydroxide",
+  "potassium hydroxide",
+  "calcium hydroxide",
+  "potassium carbonate",
+  "cellulose",
+  "cellulose gum",
+  "powdered cellulose",
+  "microcrystalline cellulose",
+  "methylcellulose",
+  "hydroxypropyl methylcellulose",
+  "carboxymethylcellulose",
+  "silicon dioxide",
+  "titanium dioxide",
+  "iron oxide",
+  "red 40",
+  "red 40 lake",
+  "yellow 5",
+  "yellow 5 lake",
+  "yellow 6",
+  "yellow 6 lake",
+  "blue 1",
+  "blue 1 lake",
+  "blue 2",
+  "red 3",
+  "artificial color",
+  "artificial colors",
+  "color",
+  "colors",
+  "color added",
+  "colour",
+  "beta carotene",
+  "sucralose",
+  "acesulfame potassium",
+  "acesulfame k",
+  "aspartame",
+  "saccharin",
+  "malic acid",
+  "fumaric acid",
+  "tartaric acid",
+  "phosphoric acid",
+  "acetic acid",
+  "sodium acetate",
+  "sodium diacetate",
+  "calcium disodium edta",
+  "disodium edta",
+  "edta",
+  "bht",
+  "bha",
+  "tbhq",
+  "propyl gallate",
+  "cream of tartar",
+  "potassium bitartrate",
+  "shea butter",
+  "carnauba wax",
+  "beeswax",
+  "shellac",
+  "confectioners glaze",
+  "glycerin",
+  "glycerol",
+  "vegetable glycerin",
+  "calcium silicate",
+  "sodium alginate",
+  "alginate",
+  "calcium alginate",
+  "gellan gum",
+  "gellan",
+  "konjac",
+  "glucomannan",
+  "sodium erythorbate",
+  "erythorbic acid",
+  "calcium peroxide",
+  "azodicarbonamide",
+  "potassium bromate",
+  "l cysteine",
+  "sodium stearoyl lactylate",
+  "calcium stearoyl lactylate",
+  "datem",
+  "psyllium",
+  "psyllium husk",
+  "inulin",
+  "chicory root",
+  "chicory root fiber",
+  "chicory root inulin",
+  "propionic acid",
+  "treated with lime",
+  "calcium hydroxide lime",
+  "nitrogen",
+  "carbon dioxide",
+  "natamycin",
+  "nisin",
+  "sodium carbonate",
+  "ammonium chloride",
+  "ammonium sulfate",
+  "calcium iodate",
+  "dl alpha tocopheryl acetate",
+  "vitamin e acetate",
+  "tocopheryl acetate"
+ ],
+ "noise": [
+  "allergens",
+  "allergen information",
+  "contains",
+  "ingredients",
+  "ingredient",
+  "and",
+  "or",
+  "and or",
+  "organic",
+  "preservative",
+  "preservatives",
+  "emulsifier",
+  "emulsifiers",
+  "stabilizer",
+  "stabilizers",
+  "thickener",
+  "thickeners",
+  "antioxidant",
+  "antioxidants",
+  "anticaking agent",
+  "anti caking agent",
+  "acidulant",
+  "acidity regulator",
+  "dough conditioner",
+  "dough conditioners",
+  "vitamins and minerals",
+  "vitamins",
+  "minerals",
+  "mineral nutrients",
+  "a preservative",
+  "an emulsifier",
+  "added to preserve freshness",
+  "to preserve freshness",
+  "to maintain freshness",
+  "for freshness",
+  "to retain moisture",
+  "for color",
+  "to protect flavor",
+  "to protect color",
+  "as a preservative",
+  "less than 2% of",
+  "2% or less of",
+  "contains 2% or less of",
+  "contains less than 2% of",
+  "of the following",
+  "each of the following",
+  "one or more of the following",
+  "added",
+  "dried",
+  "natural",
+  "from",
+  "for flavor",
+  "processing aid",
+  "of",
+  "with"
+ ],
+ "rules": [
+  {
+   "match": [
+    "milk",
+    "whole milk",
+    "skim milk",
+    "nonfat milk",
+    "fat free milk",
+    "low fat milk",
+    "reduced fat milk",
+    "milk powder",
+    "dry milk",
+    "dried milk",
+    "nonfat dry milk",
+    "milk solids",
+    "milkfat",
+    "milk fat",
+    "butterfat",
+    "butter oil",
+    "anhydrous milk fat",
+    "lactose",
+    "lactalbumin",
+    "lactoglobulin",
+    "lactoferrin",
+    "milk protein",
+    "milk protein concentrate",
+    "cultured milk",
+    "condensed milk",
+    "sweetened condensed milk",
+    "evaporated milk",
+    "half and half",
+    "curds",
+    "dairy",
+    "cheese",
+    "cheeses",
+    "cheese powder",
+    "cheese culture",
+    "ice cream",
+    "heavy cream",
+    "whipping cream",
+    "light cream",
+    "custard",
+    "kefir",
+    "paneer",
+    "quark",
+    "skyr",
+    "lactic cheese"
+   ],
+   "is": [
+    "cows-milk"
+   ]
+  },
+  {
+   "match": [
+    "caseinate",
+    "caseinates",
+    "sodium caseinate",
+    "calcium caseinate",
+    "potassium caseinate",
+    "rennet casein",
+    "hydrolyzed casein"
+   ],
+   "is": [
+    "casein"
+   ]
+  },
+  {
+   "match": [
+    "whey protein",
+    "whey protein concentrate",
+    "whey protein isolate",
+    "sweet whey",
+    "whey powder",
+    "hydrolyzed whey"
+   ],
+   "is": [
+    "whey"
+   ]
+  },
+  {
+   "match": [
+    "butter flavor",
+    "butter flavour",
+    "natural butter flavor",
+    "artificial butter flavor"
+   ],
+   "is": [
+    "cows-milk",
+    "?"
+   ],
+   "any": true,
+   "note": "Butter flavor may or may not contain milk"
+  },
+  {
+   "match": [
+    "milk chocolate",
+    "white chocolate",
+    "milk chocolate chips"
+   ],
+   "is": [
+    "cows-milk",
+    "cacao"
+   ]
+  },
+  {
+   "match": [
+    "cocoa butter",
+    "cacao butter",
+    "cocoa",
+    "cocoa powder",
+    "cocoa mass",
+    "cocoa liquor",
+    "chocolate",
+    "chocolate liquor",
+    "unsweetened chocolate",
+    "dark chocolate",
+    "semisweet chocolate",
+    "bittersweet chocolate",
+    "cacao nibs",
+    "cocoa processed with alkali",
+    "dutch process cocoa",
+    "chocolate chips"
+   ],
+   "is": [
+    "cacao"
+   ]
+  },
+  {
+   "match": [
+    "peanut butter",
+    "peanuts",
+    "groundnut",
+    "groundnuts",
+    "arachis oil",
+    "peanut flour"
+   ],
+   "is": [
+    "peanut"
+   ]
+  },
+  {
+   "match": [
+    "almond butter",
+    "almond milk",
+    "almond flour",
+    "almond meal",
+    "almond paste",
+    "marzipan"
+   ],
+   "is": [
+    "almond"
+   ]
+  },
+  {
+   "match": [
+    "cashew butter",
+    "cashew milk"
+   ],
+   "is": [
+    "cashew"
+   ]
+  },
+  {
+   "match": [
+    "sunflower butter",
+    "sunbutter",
+    "sunflower seed butter",
+    "sunflower",
+    "sunflower kernels"
+   ],
+   "is": [
+    "sunflower-seed"
+   ]
+  },
+  {
+   "match": [
+    "apple butter"
+   ],
+   "is": [
+    "apple"
+   ]
+  },
+  {
+   "match": [
+    "coconut milk",
+    "coconut cream",
+    "cream of coconut"
+   ],
+   "is": [
+    "coconut-milk"
+   ]
+  },
+  {
+   "match": [
+    "oat",
+    "oat milk",
+    "oat flour",
+    "rolled oats",
+    "oatmeal",
+    "oat fiber",
+    "oat bran",
+    "whole grain oats",
+    "whole oats",
+    "steel cut oats",
+    "oat syrup"
+   ],
+   "is": [
+    "oats"
+   ]
+  },
+  {
+   "match": [
+    "soy milk",
+    "soymilk"
+   ],
+   "is": [
+    "soybean"
+   ]
+  },
+  {
+   "match": [
+    "rice milk",
+    "rice",
+    "rice flour",
+    "white rice flour",
+    "rice starch",
+    "rice bran",
+    "rice syrup",
+    "rice protein",
+    "enriched rice"
+   ],
+   "is": [
+    "white-rice"
+   ]
+  },
+  {
+   "match": [
+    "brown rice flour",
+    "brown rice syrup"
+   ],
+   "is": [
+    "brown-rice"
+   ]
+  },
+  {
+   "match": [
+    "goat cheese",
+    "goat milk",
+    "goats milk cheese",
+    "chevre"
+   ],
+   "is": [
+    "goats-milk"
+   ]
+  },
+  {
+   "match": [
+    "sheep cheese",
+    "sheeps milk cheese",
+    "pecorino",
+    "pecorino romano",
+    "manchego",
+    "roquefort"
+   ],
+   "is": [
+    "sheeps-milk"
+   ]
+  },
+  {
+   "match": [
+    "egg",
+    "whole egg",
+    "whole eggs",
+    "dried egg",
+    "dried eggs",
+    "egg powder",
+    "liquid egg",
+    "dried whole egg",
+    "albumen",
+    "ovalbumin",
+    "lysozyme",
+    "mayonnaise",
+    "mayo",
+    "meringue",
+    "egg product",
+    "egg products",
+    "egg solids"
+   ],
+   "is": [
+    "chicken-egg"
+   ]
+  },
+  {
+   "match": [
+    "egg whites",
+    "dried egg white",
+    "dried egg whites",
+    "egg albumen"
+   ],
+   "is": [
+    "egg-white"
+   ]
+  },
+  {
+   "match": [
+    "egg yolks",
+    "dried egg yolk"
+   ],
+   "is": [
+    "egg-yolk"
+   ]
+  },
+  {
+   "match": [
+    "wheat flour",
+    "enriched wheat flour",
+    "whole wheat",
+    "whole wheat flour",
+    "enriched flour",
+    "enriched bleached flour",
+    "enriched unbleached flour",
+    "bleached flour",
+    "unbleached flour",
+    "all purpose flour",
+    "bread flour",
+    "cake flour",
+    "pastry flour",
+    "self rising flour",
+    "wheat gluten",
+    "vital wheat gluten",
+    "gluten",
+    "seitan",
+    "wheat starch",
+    "wheat protein",
+    "durum",
+    "durum wheat",
+    "durum flour",
+    "farina",
+    "graham flour",
+    "graham",
+    "einkorn",
+    "emmer",
+    "kamut",
+    "khorasan",
+    "breadcrumbs",
+    "bread crumbs",
+    "panko",
+    "wheat bran",
+    "wheat germ",
+    "cracked wheat",
+    "malted wheat",
+    "wheat berries",
+    "hydrolyzed wheat protein",
+    "modified wheat starch",
+    "bread",
+    "pasta",
+    "noodles",
+    "crackers",
+    "croutons",
+    "flour tortilla"
+   ],
+   "is": [
+    "wheat"
+   ]
+  },
+  {
+   "match": [
+    "flour"
+   ],
+   "is": [
+    "wheat"
+   ],
+   "note": "Plain \"flour\" is almost always wheat"
+  },
+  {
+   "match": [
+    "triticale"
+   ],
+   "is": [
+    "wheat",
+    "rye"
+   ]
+  },
+  {
+   "match": [
+    "malt",
+    "malt extract",
+    "malted barley",
+    "barley malt",
+    "malt syrup",
+    "malt flavoring",
+    "malt flavor",
+    "malted barley flour",
+    "malt vinegar",
+    "barley flour",
+    "pearl barley"
+   ],
+   "is": [
+    "barley"
+   ]
+  },
+  {
+   "match": [
+    "soy",
+    "soya",
+    "soy protein",
+    "soy protein isolate",
+    "soy protein concentrate",
+    "isolated soy protein",
+    "soy flour",
+    "textured vegetable protein",
+    "textured soy protein",
+    "tvp",
+    "miso",
+    "natto",
+    "soybeans",
+    "soy beans",
+    "hydrolyzed soy protein",
+    "soy nuts"
+   ],
+   "is": [
+    "soybean"
+   ]
+  },
+  {
+   "match": [
+    "soy sauce",
+    "shoyu",
+    "teriyaki sauce"
+   ],
+   "is": [
+    "soybean",
+    "wheat"
+   ]
+  },
+  {
+   "match": [
+    "tamari"
+   ],
+   "is": [
+    "soybean"
+   ],
+   "note": "Tamari is soy; often wheat-free but check"
+  },
+  {
+   "match": [
+    "lecithin"
+   ],
+   "is": [
+    "soy-lecithin",
+    "sunflower-lecithin"
+   ],
+   "any": true,
+   "note": "Lecithin is usually soy or sunflower"
+  },
+  {
+   "match": [
+    "maize",
+    "corn flour",
+    "cornflour",
+    "masa",
+    "masa harina",
+    "corn masa",
+    "corn masa flour",
+    "nixtamalized corn",
+    "hominy",
+    "grits",
+    "polenta",
+    "popcorn",
+    "corn bran",
+    "corn protein",
+    "zein",
+    "corn grits",
+    "corn tortilla",
+    "tortilla chips",
+    "corn chips",
+    "hydrolyzed corn protein",
+    "corn gluten"
+   ],
+   "is": [
+    "corn"
+   ]
+  },
+  {
+   "match": [
+    "corn starch",
+    "modified corn starch",
+    "corn starch modified"
+   ],
+   "is": [
+    "cornstarch"
+   ]
+  },
+  {
+   "match": [
+    "corn syrup solids",
+    "high fructose corn syrup",
+    "hfcs",
+    "corn sugar",
+    "glucose fructose syrup"
+   ],
+   "is": [
+    "corn-syrup"
+   ]
+  },
+  {
+   "match": [
+    "corn maltodextrin"
+   ],
+   "is": [
+    "maltodextrin",
+    "corn"
+   ]
+  },
+  {
+   "match": [
+    "dextrose",
+    "dextrose monohydrate",
+    "crystalline fructose",
+    "fructose"
+   ],
+   "is": [
+    "corn"
+   ],
+   "note": "Usually made from corn"
+  },
+  {
+   "match": [
+    "glucose",
+    "glucose syrup",
+    "glucose solids",
+    "dried glucose syrup"
+   ],
+   "is": [
+    "corn",
+    "wheat"
+   ],
+   "any": true,
+   "note": "Usually made from corn or wheat"
+  },
+  {
+   "match": [
+    "dextrin",
+    "dextrins"
+   ],
+   "is": [
+    "corn",
+    "wheat",
+    "tapioca-starch",
+    "potato-starch"
+   ],
+   "any": true,
+   "note": "Usually made from corn or wheat"
+  },
+  {
+   "match": [
+    "sorbitol",
+    "mannitol",
+    "maltitol"
+   ],
+   "is": [
+    "corn",
+    "?"
+   ],
+   "any": true,
+   "note": "Usually made from corn"
+  },
+  {
+   "match": [
+    "xylitol"
+   ],
+   "is": [
+    "corn",
+    "?"
+   ],
+   "any": true,
+   "note": "Made from corn or birch"
+  },
+  {
+   "match": [
+    "ascorbic acid",
+    "vitamin c",
+    "sodium ascorbate",
+    "calcium ascorbate"
+   ],
+   "is": [
+    "corn",
+    "?"
+   ],
+   "any": true,
+   "note": "Usually made from corn"
+  },
+  {
+   "match": [
+    "lactic acid",
+    "sodium lactate",
+    "calcium lactate",
+    "potassium lactate"
+   ],
+   "is": [
+    "corn",
+    "?"
+   ],
+   "any": true,
+   "note": "Usually fermented from corn or beet sugar; despite the name, rarely dairy"
+  },
+  {
+   "match": [
+    "caramel color",
+    "caramel colour",
+    "caramel coloring"
+   ],
+   "is": [
+    "corn",
+    "wheat",
+    "cane-sugar"
+   ],
+   "any": true,
+   "note": "Made from corn, wheat, or cane sugar"
+  },
+  {
+   "match": [
+    "modified food starch",
+    "food starch",
+    "food starch modified",
+    "starch",
+    "modified starch",
+    "resistant starch"
+   ],
+   "is": [
+    "cornstarch",
+    "wheat",
+    "potato-starch",
+    "tapioca-starch"
+   ],
+   "any": true,
+   "note": "In the US usually corn; must say wheat if it's from wheat"
+  },
+  {
+   "match": [
+    "polysorbate 80",
+    "polysorbate 60",
+    "polysorbate"
+   ],
+   "is": [
+    "corn",
+    "?"
+   ],
+   "any": true,
+   "note": "Often made with corn"
+  },
+  {
+   "match": [
+    "vegetable oil",
+    "vegetable oils",
+    "vegetable shortening",
+    "shortening"
+   ],
+   "is": [
+    "soybean-oil",
+    "canola-oil",
+    "corn-oil",
+    "sunflower-oil",
+    "palm-oil"
+   ],
+   "any": true,
+   "note": "Usually soy, canola, corn, sunflower, or palm"
+  },
+  {
+   "match": [
+    "mono and diglycerides",
+    "monoglycerides",
+    "diglycerides",
+    "mono diglycerides",
+    "distilled monoglycerides"
+   ],
+   "is": [
+    "soybean-oil",
+    "palm-oil",
+    "canola-oil",
+    "lard",
+    "beef-tallow"
+   ],
+   "any": true,
+   "note": "Made from vegetable oils or animal fat"
+  },
+  {
+   "match": [
+    "hydrolyzed vegetable protein",
+    "hvp",
+    "hydrolyzed plant protein"
+   ],
+   "is": [
+    "soybean",
+    "corn",
+    "wheat"
+   ],
+   "any": true,
+   "note": "Usually soy, corn, or wheat"
+  },
+  {
+   "match": [
+    "tocopherols",
+    "mixed tocopherols",
+    "vitamin e",
+    "tocopherol",
+    "d alpha tocopherol"
+   ],
+   "is": [
+    "soybean-oil",
+    "sunflower-oil",
+    "corn-oil",
+    "canola-oil"
+   ],
+   "any": true,
+   "note": "Usually from soy"
+  },
+  {
+   "match": [
+    "natural flavor",
+    "natural flavors",
+    "natural flavoring",
+    "natural flavorings",
+    "natural flavour",
+    "natural flavours",
+    "flavor",
+    "flavors",
+    "flavoring",
+    "flavorings",
+    "artificial flavor",
+    "artificial flavors",
+    "natural and artificial flavors",
+    "natural and artificial flavor",
+    "artificial flavoring",
+    "smoke flavor",
+    "natural smoke flavor"
+   ],
+   "is": [
+    "?"
+   ],
+   "any": true,
+   "note": "Can come from many sources (dairy, egg, yeast, corn...). Ask the maker."
+  },
+  {
+   "match": [
+    "spices",
+    "spice",
+    "seasoning",
+    "seasonings",
+    "spice extract",
+    "spice extractives",
+    "herbs",
+    "herbs and spices"
+   ],
+   "is": [
+    "?"
+   ],
+   "any": true,
+   "note": "Unlisted spice blend"
+  },
+  {
+   "match": [
+    "enzymes",
+    "enzyme",
+    "enzyme modified"
+   ],
+   "is": [
+    "?"
+   ],
+   "any": true,
+   "note": "Enzymes can come from animal, fungal, or bacterial sources"
+  },
+  {
+   "match": [
+    "cultures",
+    "culture",
+    "bacterial cultures",
+    "live cultures",
+    "active cultures",
+    "live and active cultures"
+   ],
+   "is": [
+    "?"
+   ],
+   "any": true,
+   "note": "Cultures are often grown on dairy"
+  },
+  {
+   "match": [
+    "broth",
+    "stock",
+    "bouillon"
+   ],
+   "is": [
+    "?"
+   ],
+   "any": true,
+   "note": "Unlisted broth"
+  },
+  {
+   "match": [
+    "yeast",
+    "active dry yeast",
+    "instant yeast",
+    "dry yeast",
+    "brewers yeast",
+    "torula yeast",
+    "bakers yeast",
+    "fresh yeast"
+   ],
+   "is": [
+    "bakers-yeast"
+   ]
+  },
+  {
+   "match": [
+    "autolyzed yeast",
+    "autolyzed yeast extract",
+    "yeast extract",
+    "hydrolyzed yeast",
+    "yeast extracts"
+   ],
+   "is": [
+    "yeast-extract"
+   ]
+  },
+  {
+   "match": [
+    "sugar",
+    "granulated sugar",
+    "raw sugar",
+    "evaporated cane juice",
+    "cane juice",
+    "cane syrup",
+    "turbinado",
+    "turbinado sugar",
+    "organic cane sugar",
+    "pure cane sugar",
+    "demerara",
+    "sucrose"
+   ],
+   "is": [
+    "cane-sugar"
+   ]
+  },
+  {
+   "match": [
+    "powdered sugar",
+    "confectioners sugar",
+    "icing sugar"
+   ],
+   "is": [
+    "cane-sugar",
+    "cornstarch"
+   ]
+  },
+  {
+   "match": [
+    "invert sugar",
+    "invert syrup"
+   ],
+   "is": [
+    "cane-sugar",
+    "?"
+   ],
+   "any": true,
+   "note": "Usually cane or beet sugar"
+  },
+  {
+   "match": [
+    "beet sugar"
+   ],
+   "is": [
+    "?"
+   ]
+  },
+  {
+   "match": [
+    "vinegar",
+    "distilled vinegar",
+    "distilled white vinegar",
+    "white distilled vinegar"
+   ],
+   "is": [
+    "white-vinegar"
+   ]
+  },
+  {
+   "match": [
+    "msg",
+    "monosodium glutamate"
+   ],
+   "is": [
+    "msg"
+   ]
+  },
+  {
+   "match": [
+    "sulfite",
+    "sodium bisulfite",
+    "sodium metabisulfite",
+    "potassium metabisulfite",
+    "sulfur dioxide",
+    "sodium sulfite",
+    "potassium bisulfite",
+    "sulphites",
+    "sulphite"
+   ],
+   "is": [
+    "sulfites"
+   ]
+  },
+  {
+   "match": [
+    "gum acacia",
+    "acacia gum",
+    "acacia"
+   ],
+   "is": [
+    "gum-arabic"
+   ]
+  },
+  {
+   "match": [
+    "carob bean gum"
+   ],
+   "is": [
+    "locust-bean-gum"
+   ]
+  },
+  {
+   "match": [
+    "baking soda",
+    "sodium bicarbonate",
+    "bicarbonate of soda"
+   ],
+   "is": [
+    "baking-soda"
+   ]
+  },
+  {
+   "match": [
+    "leavening",
+    "leavening agents",
+    "leavening agent"
+   ],
+   "is": [
+    "baking-soda",
+    "baking-powder"
+   ],
+   "any": true
+  },
+  {
+   "match": [
+    "sodium citrate",
+    "potassium citrate",
+    "calcium citrate",
+    "trisodium citrate"
+   ],
+   "is": [
+    "citric-acid"
+   ]
+  },
+  {
+   "match": [
+    "vanilla extract",
+    "natural vanilla",
+    "vanilla bean",
+    "vanilla beans",
+    "pure vanilla extract"
+   ],
+   "is": [
+    "vanilla"
+   ]
+  },
+  {
+   "match": [
+    "tapioca",
+    "tapioca flour"
+   ],
+   "is": [
+    "tapioca-starch"
+   ]
+  },
+  {
+   "match": [
+    "cassava flour"
+   ],
+   "is": [
+    "cassava"
+   ]
+  },
+  {
+   "match": [
+    "palm kernel oil",
+    "palm fruit oil",
+    "palm olein",
+    "palm oil shortening",
+    "interesterified palm oil"
+   ],
+   "is": [
+    "palm-oil"
+   ]
+  },
+  {
+   "match": [
+    "rapeseed oil",
+    "canola"
+   ],
+   "is": [
+    "canola-oil"
+   ]
+  },
+  {
+   "match": [
+    "potato flakes",
+    "dehydrated potato",
+    "dehydrated potatoes",
+    "potato flour",
+    "dried potatoes"
+   ],
+   "is": [
+    "potato"
+   ]
+  },
+  {
+   "match": [
+    "pepper",
+    "white pepper",
+    "ground pepper",
+    "ground black pepper"
+   ],
+   "is": [
+    "black-pepper"
+   ]
+  },
+  {
+   "match": [
+    "red pepper flakes",
+    "crushed red pepper",
+    "chili",
+    "chile",
+    "chilies",
+    "chiles",
+    "jalapeno",
+    "jalapenos",
+    "chipotle",
+    "habanero",
+    "serrano"
+   ],
+   "is": [
+    "chili-pepper"
+   ]
+  },
+  {
+   "match": [
+    "green pepper",
+    "green peppers",
+    "red bell pepper",
+    "red peppers",
+    "sweet pepper"
+   ],
+   "is": [
+    "bell-pepper"
+   ]
+  },
+  {
+   "match": [
+    "red pepper"
+   ],
+   "is": [
+    "bell-pepper",
+    "chili-pepper"
+   ],
+   "any": true
+  },
+  {
+   "match": [
+    "cayenne pepper"
+   ],
+   "is": [
+    "cayenne"
+   ]
+  },
+  {
+   "match": [
+    "chili powder"
+   ],
+   "is": [
+    "chili-pepper",
+    "cumin",
+    "oregano",
+    "garlic"
+   ]
+  },
+  {
+   "match": [
+    "garlic powder",
+    "dehydrated garlic",
+    "granulated garlic"
+   ],
+   "is": [
+    "garlic"
+   ]
+  },
+  {
+   "match": [
+    "onion powder",
+    "dehydrated onion",
+    "dried onion",
+    "minced onion"
+   ],
+   "is": [
+    "onion"
+   ]
+  },
+  {
+   "match": [
+    "celery seed",
+    "celery salt",
+    "celery powder",
+    "celery juice"
+   ],
+   "is": [
+    "celery"
+   ]
+  },
+  {
+   "match": [
+    "mustard",
+    "mustard flour",
+    "dijon",
+    "dijon mustard",
+    "prepared mustard",
+    "mustard powder",
+    "yellow mustard",
+    "mustard bran"
+   ],
+   "is": [
+    "ground-mustard"
+   ]
+  },
+  {
+   "match": [
+    "paprika extract",
+    "paprika oleoresin"
+   ],
+   "is": [
+    "paprika"
+   ]
+  },
+  {
+   "match": [
+    "turmeric extract",
+    "turmeric oleoresin",
+    "curcumin"
+   ],
+   "is": [
+    "turmeric"
+   ]
+  },
+  {
+   "match": [
+    "annatto extract",
+    "annatto color"
+   ],
+   "is": [
+    "annatto"
+   ]
+  },
+  {
+   "match": [
+    "rosemary extract"
+   ],
+   "is": [
+    "rosemary"
+   ]
+  },
+  {
+   "match": [
+    "green tea extract"
+   ],
+   "is": [
+    "green-tea"
+   ]
+  },
+  {
+   "match": [
+    "coffee extract"
+   ],
+   "is": [
+    "coffee"
+   ]
+  },
+  {
+   "match": [
+    "hummus"
+   ],
+   "is": [
+    "chickpea",
+    "tahini"
+   ]
+  },
+  {
+   "match": [
+    "garbanzo",
+    "garbanzo bean",
+    "garbanzo beans",
+    "gram flour",
+    "besan",
+    "chickpea flour",
+    "aquafaba",
+    "chana",
+    "chana dal"
+   ],
+   "is": [
+    "chickpea"
+   ]
+  },
+  {
+   "match": [
+    "peas",
+    "pea protein",
+    "pea protein isolate",
+    "pea fiber",
+    "pea starch",
+    "pea flour",
+    "yellow pea",
+    "yellow peas",
+    "pea protein concentrate"
+   ],
+   "is": [
+    "green-pea"
+   ],
+   "note": "Pea protein comes from the same plant as green peas"
+  },
+  {
+   "match": [
+    "green beans",
+    "string beans"
+   ],
+   "is": [
+    "green-bean"
+   ]
+  },
+  {
+   "match": [
+    "lentil flour",
+    "red lentils"
+   ],
+   "is": [
+    "lentil"
+   ]
+  },
+  {
+   "match": [
+    "flax",
+    "linseed",
+    "flax meal",
+    "ground flaxseed",
+    "flax seed",
+    "flax seeds",
+    "milled flaxseed"
+   ],
+   "is": [
+    "flaxseed"
+   ]
+  },
+  {
+   "match": [
+    "sesame",
+    "sesame seeds",
+    "benne",
+    "benne seed",
+    "gingelly",
+    "til",
+    "sesame flour",
+    "toasted sesame"
+   ],
+   "is": [
+    "sesame-seed"
+   ]
+  },
+  {
+   "match": [
+    "chia"
+   ],
+   "is": [
+    "chia-seed"
+   ]
+  },
+  {
+   "match": [
+    "hemp",
+    "hemp hearts"
+   ],
+   "is": [
+    "hemp-seed"
+   ]
+  },
+  {
+   "match": [
+    "pumpkin seeds",
+    "pepitas"
+   ],
+   "is": [
+    "pumpkin-seed"
+   ]
+  },
+  {
+   "match": [
+    "fish",
+    "whitefish",
+    "fish gelatin",
+    "fish stock",
+    "fish protein",
+    "surimi",
+    "imitation crab",
+    "bonito",
+    "dashi"
+   ],
+   "is": [
+    "fish-sauce"
+   ],
+   "note": "Contains fish"
+  },
+  {
+   "match": [
+    "worcestershire sauce",
+    "worcestershire",
+    "caesar dressing"
+   ],
+   "is": [
+    "anchovy"
+   ],
+   "note": "Usually made with anchovies"
+  },
+  {
+   "match": [
+    "omega 3",
+    "omega 3 fatty acids",
+    "dha",
+    "epa"
+   ],
+   "is": [
+    "fish-oil",
+    "flaxseed",
+    "?"
+   ],
+   "any": true,
+   "note": "Can be from fish, algae, or flax"
+  },
+  {
+   "match": [
+    "prawn",
+    "prawns"
+   ],
+   "is": [
+    "shrimp"
+   ]
+  },
+  {
+   "match": [
+    "oyster sauce"
+   ],
+   "is": [
+    "oyster"
+   ]
+  },
+  {
+   "match": [
+    "crustacean",
+    "crustaceans",
+    "crustacean shellfish"
+   ],
+   "is": [
+    "shrimp",
+    "crab",
+    "lobster",
+    "crawfish"
+   ],
+   "any": true,
+   "note": "Unspecified crustacean"
+  },
+  {
+   "match": [
+    "shellfish"
+   ],
+   "is": [
+    "shrimp",
+    "crab",
+    "lobster",
+    "crawfish",
+    "clam",
+    "mussel",
+    "oyster",
+    "scallop",
+    "squid",
+    "octopus"
+   ],
+   "any": true,
+   "note": "Unspecified shellfish"
+  },
+  {
+   "match": [
+    "mollusc",
+    "molluscs",
+    "mollusk",
+    "mollusks",
+    "calamari"
+   ],
+   "is": [
+    "clam",
+    "mussel",
+    "oyster",
+    "scallop",
+    "squid",
+    "octopus"
+   ],
+   "any": true
+  },
+  {
+   "match": [
+    "nuts",
+    "tree nuts",
+    "nut",
+    "tree nut",
+    "mixed nuts",
+    "nut butter",
+    "nut pieces"
+   ],
+   "is": [
+    "almond",
+    "cashew",
+    "walnut",
+    "pecan",
+    "pistachio",
+    "hazelnut",
+    "brazil-nut",
+    "macadamia",
+    "pine-nut"
+   ],
+   "any": true,
+   "note": "Unspecified tree nuts"
+  },
+  {
+   "match": [
+    "filbert",
+    "filberts",
+    "gianduja"
+   ],
+   "is": [
+    "hazelnut"
+   ]
+  },
+  {
+   "match": [
+    "pignoli",
+    "pinon",
+    "pine nuts"
+   ],
+   "is": [
+    "pine-nut"
+   ]
+  },
+  {
+   "match": [
+    "praline",
+    "pralines"
+   ],
+   "is": [
+    "pecan",
+    "hazelnut",
+    "almond"
+   ],
+   "any": true,
+   "note": "Usually pecan, hazelnut, or almond"
+  },
+  {
+   "match": [
+    "pesto"
+   ],
+   "is": [
+    "basil",
+    "pine-nut",
+    "cows-milk",
+    "garlic",
+    "olive-oil"
+   ]
+  },
+  {
+   "match": [
+    "soluble corn fiber",
+    "corn fiber"
+   ],
+   "is": [
+    "corn"
+   ]
+  }
+ ]
+}

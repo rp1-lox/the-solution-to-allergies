@@ -11,9 +11,20 @@ A personal allergy dashboard. Step one: **Allergy Swipe**, a Tinder-style deck o
 
 Arrow keys work on desktop. After a reaction or intolerance you can tag symptoms and add a note. Everything is editable later in **My list**.
 
+## Check
+
+Scan a barcode (looked up in [Open Food Facts](https://world.openfoodfacts.org)) or paste an ingredient list. Each ingredient is matched against your answers:
+
+- **No**: contains something you marked reaction or intolerance.
+- **Caution**: has ingredients you haven't tried, vague ones ("natural flavors", "vegetable oil"), or a "may contain" warning for something you avoid.
+- **Looks safe**: everything is on your safe list.
+
+Hidden sources are handled by `data/rules.json` (e.g. dextrose → usually corn, powdered sugar → contains cornstarch, cocoa butter → not dairy).
+
 ## Data
 
 - `data/ingredients.json`: base ingredients with a category and tags (`milk`, `tree-nut`, `gluten`, `nightshade`, …). Tags let recipes and products be checked against your results later.
+- `data/rules.json`: synonyms, hidden sources, and vague ingredients, mapped to ingredient ids.
 - `data/results.json`: your answers. Dairy, sesame, and fish start pre-marked as reactions.
 
 ## Setup
