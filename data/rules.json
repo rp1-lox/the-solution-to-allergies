@@ -159,8 +159,6 @@
   "sodium stearoyl lactylate",
   "calcium stearoyl lactylate",
   "datem",
-  "psyllium",
-  "psyllium husk",
   "inulin",
   "chicory root",
   "chicory root fiber",
@@ -1544,6 +1542,17 @@
    ],
    "is": [
     "pumpkin-seed"
+   ]
+  },
+  {
+   "match": [
+    "psyllium",
+    "psyllium husks",
+    "psyllium husk powder",
+    "psyllium seed husk"
+   ],
+   "is": [
+    "psyllium-husk"
    ]
   },
   {

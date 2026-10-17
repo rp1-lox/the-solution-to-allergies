@@ -44,7 +44,7 @@ You are helping someone with severe food allergies decide what they can eat. Whe
 - **Grains:** Barley, Rye, Spelt, Farro, Bulgur, Semolina, Couscous, Sorghum, Amaranth, Teff
 - **Legumes:** Peanut, Tempeh, Kidney bean, Pinto bean, Navy bean, Lima bean, Split pea, Mung bean, Fava bean, Snow pea, Lupin, Carob
 - **Tree nuts:** Cashew, Walnut, Pecan, Pistachio, Hazelnut, Brazil nut, Macadamia, Pine nut, Chestnut, Coconut milk
-- **Seeds:** Pumpkin seed, Hemp seed, Poppy seed, Mustard seed
+- **Seeds:** Pumpkin seed, Hemp seed, Psyllium husk, Poppy seed, Mustard seed
 - **Vegetables:** Shallot, Scallion, Celeriac, Swiss chard, Collard greens, Pumpkin, Radish, Turnip, Parsnip, Fennel, Jicama, Sweet corn, Cassava, Taro
 - **Fungi & yeast:** Oyster mushroom
 - **Fruits:** Grapefruit, Nectarine, Papaya, Kiwi, Honeydew, Pomegranate, Fig, Passion fruit, Persimmon, Guava, Dragon fruit
