@@ -77,7 +77,8 @@ const Checker = (() => {
     return { v, each };
   }
 
-  function check(ctx, text, statusOf) {
+  // isSevere(id) -> true for anaphylaxis-level allergens; their "may contain" counts as a no.
+  function check(ctx, text, statusOf, isSevere = () => false) {
     const { main, trace } = split(text);
     const items = [];
     const seen = new Set();
@@ -99,7 +100,9 @@ const Checker = (() => {
         if (m.entry.neutral) continue;
         const l = level(m.entry, statusOf);
         // Only warn about cross-contact with things you actually avoid.
-        if (l.each.some((e) => e.v === 'no')) push({ kind: 'trace', text: tok, phrase: m.phrase, entry: m.entry, ...l, v: 'caution' });
+        if (!l.each.some((e) => e.v === 'no')) continue;
+        const severe = l.each.some((e) => e.v === 'no' && isSevere(e.id));
+        push({ kind: 'trace', text: tok, phrase: m.phrase, entry: m.entry, ...l, v: severe ? 'no' : 'caution', severe });
       }
     }
     const overall = items.some((i) => i.v === 'no') ? 'no' : items.some((i) => i.v === 'caution') ? 'caution' : items.length ? 'ok' : null;
@@ -142,7 +145,7 @@ if (typeof document !== 'undefined') {
       const parts = it.each.map((e) => `${nameOf(e.id)}${e.id === '?' ? '' : `: ${labelOf(e.s)}`}`);
       detail = (it.entry.any ? 'Could be ' : '') + parts.join(it.entry.any ? ' / ' : ', ');
       if (it.entry.note) detail += `. ${it.entry.note}`;
-      if (it.kind === 'trace') detail = `May contain (shared equipment). ${detail}`;
+      if (it.kind === 'trace') detail = `May contain (shared equipment)${it.severe ? '. Anaphylaxis risk' : ''}. ${detail}`;
     }
     const title = it.phrase && it.phrase !== it.text ? `${it.text} → ${it.phrase}` : it.text;
     const tag = single ? `button class="item" data-id="${esc(single)}"` : 'div class="item static"';
@@ -155,7 +158,8 @@ if (typeof document !== 'undefined') {
     const out = $('#check-result');
     if (!text.trim()) { out.innerHTML = ''; return; }
     if (!(await ensureCtx())) return;
-    const { overall, items } = Checker.check(ctx, text, statusOf);
+    const isSevere = (id) => (results[id]?.symptoms || []).includes('anaphylaxis');
+    const { overall, items } = Checker.check(ctx, text, statusOf, isSevere);
     if (!overall) { out.innerHTML = ''; return; }
     const groups = [
       ['no', 'Avoid', items.filter((i) => i.v === 'no')],

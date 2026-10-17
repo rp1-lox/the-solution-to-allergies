@@ -21,6 +21,14 @@ Scan a barcode (looked up in [Open Food Facts](https://world.openfoodfacts.org))
 
 Hidden sources are handled by `data/rules.json` (e.g. dextrose → usually corn, powdered sugar → contains cornstarch, cocoa butter → not dairy).
 
+## Restaurants and menus
+
+`PROFILE.md` is a plain-language summary of your answers plus instructions for an AI. It rebuilds automatically (GitHub Action) whenever your answers change. To check a menu, give an AI the restaurant's menu link and this link:
+
+https://github.com/rp1-lox/the-solution-to-allergies/blob/main/PROFILE.md
+
+and ask: "Using my allergy profile, what can I eat here?"
+
 ## Data
 
 - `data/ingredients.json`: base ingredients with a category and tags (`milk`, `tree-nut`, `gluten`, `nightshade`, …). Tags let recipes and products be checked against your results later.
