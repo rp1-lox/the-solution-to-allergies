@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" role="img" aria-labelledby="t">
+  <title id="t">Pancake cooking in a skillet, bubbles on top, ready to flip</title>
+  <rect width="240" height="160" rx="18" fill="#f3ead8"/>
+  <!-- handle -->
+  <path d="M178 96 L220 116" stroke="#3b3b3b" stroke-width="12" stroke-linecap="round"/>
+  <!-- pan -->
+  <ellipse cx="108" cy="96" rx="88" ry="40" fill="#3f4246"/>
+  <ellipse cx="108" cy="90" rx="80" ry="34" fill="#2b2d30"/>
+  <!-- pancake -->
+  <ellipse cx="104" cy="92" rx="50" ry="20" fill="#d99a4c"/>
+  <ellipse cx="104" cy="90" rx="44" ry="16" fill="#efd39b"/>
+  <g fill="#c9a865">
+    <circle cx="86" cy="86" r="3"/><circle cx="104" cy="82" r="2.5"/><circle cx="120" cy="88" r="3"/>
+    <circle cx="96" cy="96" r="2.5"/><circle cx="114" cy="98" r="2"/><circle cx="130" cy="92" r="2"/><circle cx="76" cy="94" r="2"/>
+  </g>
+  <!-- spatula -->
+  <path d="M150 52 L208 22" stroke="#c98f52" stroke-width="7" stroke-linecap="round"/>
+  <path d="M132 52 L152 40 L164 60 L144 72 Z" fill="#9fa6ad"/>
+</svg>

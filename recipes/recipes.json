@@ -1,0 +1,184 @@
+{
+ "labelChecks": [
+  {
+   "id": "baking-powder",
+   "title": "Baking powder must be corn-free",
+   "text": "Most baking powder (Rumford, Clabber Girl, Bob's Red Mill) contains cornstarch. Use Hain Featherweight (monocalcium phosphate, potato starch, potassium bicarbonate). Hain doesn't guarantee against corn cross-contact. It starts reacting as soon as it gets wet, so bake right after it goes in."
+  },
+  {
+   "id": "salt",
+   "title": "Plain salt, no dextrose",
+   "text": "Iodized salt often contains dextrose, which is usually made from corn. Use plain, non-iodized salt or sea salt with nothing else on the label."
+  },
+  {
+   "id": "chia",
+   "title": "Grind whole chia yourself",
+   "text": "Pre-ground chia can share equipment with flax or nuts. Buy whole chia and grind it in a spice or coffee grinder."
+  },
+  {
+   "id": "sweetener",
+   "title": "Honey over maple; cane sugar",
+   "text": "Maple producers sometimes use an unlabeled defoamer, which can be sunflower or canola oil. Use honey, or ask the producer. Plain \"sugar\" can be beet sugar, so buy one labeled cane sugar."
+  },
+  {
+   "id": "oil",
+   "title": "Extra virgin olive oil",
+   "text": "\"Light\" or \"pure\" olive oil can be blended. Extra virgin is a single ingredient. Don't use cooking spray; it often has soy lecithin or canola."
+  },
+  {
+   "id": "flours",
+   "title": "Ask flour makers about sesame",
+   "text": "Rice flours and starches are often milled near sesame, nuts, or dairy. Email the brand and ask about sesame, dairy, fish, wheat, oats, and corn on shared lines before relying on one."
+  }
+ ],
+ "recipes": [
+  {
+   "id": "rice-loaf",
+   "title": "Yeast-free rice loaf",
+   "kind": "Bread",
+   "image": "img/rice-loaf.svg",
+   "summary": "A sliceable quick bread made from brown rice flour. No yeast, eggs, gums, or psyllium; chia and gelatin hold it together.",
+   "yield": "One 8.5 × 4.5 in loaf",
+   "checks": ["baking-powder", "salt", "chia", "sweetener", "oil", "flours"],
+   "groups": [
+    {
+     "name": "Dry",
+     "items": [
+      { "g": "280 g", "us": "1¾ cups", "item": "Brown rice flour", "ids": ["brown-rice"] },
+      { "g": "40 g", "us": "¼ cup", "item": "Sweet (glutinous) rice flour", "ids": ["white-rice"], "note": "Sticky white rice, ground. Helps hold the loaf together." },
+      { "g": "60 g", "us": "½ cup", "item": "Tapioca starch", "ids": ["tapioca-starch"] },
+      { "g": "40 g", "us": "¼ cup", "item": "Potato starch", "ids": ["potato-starch"], "note": "Starch, not potato flour." },
+      { "g": "6 g", "us": "1 tsp", "item": "Plain salt", "ids": [], "check": "salt" }
+     ]
+    },
+    {
+     "name": "Binders",
+     "items": [
+      { "g": "30 g", "us": "4 Tbsp", "item": "Chia seeds, ground at home", "ids": ["chia-seed"], "check": "chia" },
+      { "g": "180 g", "us": "¾ cup", "item": "Warm water (for the chia)", "ids": [] },
+      { "g": "6 g", "us": "2 tsp", "item": "Unflavored gelatin", "ids": ["gelatin"] },
+      { "g": "60 g", "us": "¼ cup", "item": "Cool water (for the gelatin)", "ids": [] }
+     ]
+    },
+    {
+     "name": "Wet",
+     "items": [
+      { "g": "190 g", "us": "¾ cup + 1 Tbsp", "item": "Warm water", "ids": [] },
+      { "g": "40 g", "us": "3 Tbsp", "item": "Extra virgin olive oil", "ids": ["olive-oil"], "check": "oil" },
+      { "g": "20 g", "us": "1 Tbsp", "item": "Honey", "ids": ["honey"], "check": "sweetener" },
+      { "g": "15 g", "us": "1 Tbsp", "item": "Apple cider vinegar", "ids": ["apple-cider-vinegar"] }
+     ]
+    },
+    {
+     "name": "Leavening (added last)",
+     "items": [
+      { "g": "4 tsp", "us": "1 Tbsp + 1 tsp", "item": "Corn-free baking powder", "ids": ["baking-powder"], "check": "baking-powder" },
+      { "g": "¼ tsp", "us": "¼ tsp", "item": "Baking soda", "ids": ["baking-soda"] }
+     ]
+    }
+   ],
+   "steps": [
+    { "text": "Heat the oven to 350°F. Line the loaf pan with a parchment sling (paper hanging over the long sides)." },
+    { "text": "Stir the ground chia into the ¾ cup warm water and let it gel. Sprinkle the gelatin over the ¼ cup cool water, let it soften, then warm it gently until it turns clear. Don't boil it.", "image": "img/step-chia.svg" },
+    { "text": "Whisk the brown rice flour, sweet rice flour, tapioca, potato starch, and salt. Leave out the baking powder and soda for now." },
+    { "text": "Mix the chia gel, gelatin, warm water, olive oil, honey, and vinegar. Stir into the flour until smooth. It should be a thick, spoonable batter, like muffin batter. Cover and let it rest 20 minutes so the rice flour softens and isn't gritty.", "image": "img/step-mix.svg" },
+    { "text": "Sprinkle the baking powder and baking soda over the batter and stir until no streaks remain. Scrape into the pan right away and smooth the top with a wet spatula." },
+    { "text": "Bake until the center reads 205–210°F on a thermometer, about 65–75 minutes. If the top is browning fast, lay foil loosely over it.", "image": "img/step-bake.svg" },
+    { "text": "Cool 15 minutes in the pan, lift out by the parchment, and cool completely on a rack before slicing (at least 2 hours). If it's cut warm, the middle will be gummy. It slices best the next day and toasts well.", "image": "img/step-cool.svg" }
+   ],
+   "tips": [
+    "Weigh the flours if you can. Rice flour cups vary a lot depending on how you scoop.",
+    "Freeze sliced and toast straight from frozen.",
+    "This is an untested recipe built from published gum-free rice loaves. Expect to adjust water or bake time after the first loaf."
+   ]
+  },
+  {
+   "id": "rice-pancakes",
+   "title": "Rice pancake mix",
+   "kind": "Pancakes",
+   "image": "img/pancakes.svg",
+   "summary": "A jar mix of white rice flour, tapioca, and chia. Add water and oil for a batch of egg-free, dairy-free pancakes.",
+   "yield": "About 4 batches; each batch makes about 8 pancakes",
+   "checks": ["baking-powder", "salt", "chia", "sweetener", "oil", "flours"],
+   "groups": [
+    {
+     "name": "Dry mix (store in a jar)",
+     "items": [
+      { "g": "600 g", "us": "4 cups", "item": "White rice flour", "ids": ["white-rice"] },
+      { "g": "60 g", "us": "½ cup", "item": "Tapioca starch", "ids": ["tapioca-starch"] },
+      { "g": "50 g", "us": "¼ cup", "item": "Cane sugar", "ids": ["cane-sugar"], "check": "sweetener" },
+      { "g": "8 tsp", "us": "2 Tbsp + 2 tsp", "item": "Corn-free baking powder", "ids": ["baking-powder"], "check": "baking-powder" },
+      { "g": "40 g", "us": "⅓ cup", "item": "Chia seeds, ground at home", "ids": ["chia-seed"], "check": "chia" },
+      { "g": "9 g", "us": "1½ tsp", "item": "Plain salt", "ids": [], "check": "salt" }
+     ]
+    },
+    {
+     "name": "Per batch",
+     "items": [
+      { "g": "190 g", "us": "1¼ cups", "item": "Pancake mix (stir the jar first)", "ids": [], "listNote": "The dry mix above" },
+      { "g": "240 g", "us": "1 cup", "item": "Water", "ids": [] },
+      { "g": "14 g", "us": "1 Tbsp", "item": "Extra virgin olive oil", "ids": ["olive-oil"], "check": "oil" },
+      { "g": "5 g", "us": "1 tsp", "item": "Apple cider vinegar", "ids": ["apple-cider-vinegar"] },
+      { "g": "", "us": "", "item": "Lard or olive oil for the pan", "ids": ["lard", "olive-oil"], "any": true }
+     ]
+    },
+    {
+     "name": "Optional",
+     "items": [
+      { "g": "60 g", "us": "¼ cup", "item": "Mashed ripe banana (use 180 g / ¾ cup water instead)", "ids": ["banana"] }
+     ]
+    }
+   ],
+   "steps": [
+    { "text": "Whisk the dry mix together well so the baking powder and chia are spread evenly. Store it airtight. Stir or shake the jar before each scoop, since it settles.", "image": "img/step-jar.svg" },
+    { "text": "Heat a skillet over medium heat. Whisk one batch of mix with the water, oil, and vinegar (and banana, if using). Let it sit a few minutes while the pan heats; it will thicken." },
+    { "text": "Grease the pan lightly. Pour about ¼ cup batter per pancake. Flip gently when bubbles pop on top and the edges look dry, then cook the other side until golden. Keep them small; rice pancakes are tender.", "image": "img/step-griddle.svg" }
+   ],
+   "tips": [
+    "If the middles stay gummy, turn the heat down a little and cook longer.",
+    "Top with honey and fruit. Skip butter and most syrups unless the label checks out."
+   ]
+  }
+ ],
+ "storeBought": [
+  {
+   "id": "123-buckwheat",
+   "title": "1-2-3 Gluten Free “Allie's Awesome Buckwheat Pancakes”",
+   "kind": "Pancake mix",
+   "link": "https://123glutenfree.com/products/allies-awesome-buckwheat-pancakes",
+   "text": "Still sold. The ingredient list we found is from an older box, so check the current one. Make it with water and a chia egg (1 Tbsp ground chia + 3 Tbsp water) instead of egg and milk.",
+   "ask": "Before using: call 1-2-3 Gluten Free (440-264-3920) and ask whether the sugar is cane or beet, what carrier the added vitamins use (often corn), and whether sesame, dairy, or fish run on the same lines.",
+   "items": [
+    { "item": "Rice flour", "ids": ["white-rice"] },
+    { "item": "Buckwheat flour", "ids": ["buckwheat"] },
+    { "item": "Tapioca starch", "ids": ["tapioca-starch"] },
+    { "item": "Brown rice flour", "ids": ["brown-rice"] },
+    { "item": "Sugar (cane or beet?)", "ids": ["cane-sugar"] },
+    { "item": "Baking soda", "ids": ["baking-soda"] },
+    { "item": "Corn-free baking powder (sodium acid pyrophosphate, baking soda, tapioca starch, monocalcium phosphate)", "ids": ["baking-soda", "tapioca-starch"] },
+    { "item": "Salt", "ids": [] },
+    { "item": "Niacin, reduced iron, calcium carbonate, thiamin, folic acid, riboflavin", "ids": [] }
+   ]
+  },
+  {
+   "id": "ener-g",
+   "title": "Ener-G Yeast-Free Brown Rice Loaf",
+   "kind": "Bread",
+   "link": "",
+   "text": "Not recommended. The company appears to have closed (listings show the bakery closed and its website isn't working), the oil may be sunflower, and it was made in a facility that processes eggs.",
+   "ask": "",
+   "items": []
+  }
+ ],
+ "sources": [
+  { "label": "Hain Featherweight baking powder ingredients (Gluten Free Watchdog)", "url": "https://www.glutenfreewatchdog.org/product/hain-featherweight-baking-powder/91" },
+  { "label": "Featherweight: replace regular baking powder 1:1", "url": "https://sanjuanislands.provisions.coop/products/ftw-baking-powder-og-12-8-oz-25584" },
+  { "label": "Corn-free baking powder notes", "url": "https://www.yummysmells.ca/2013/05/corn-free-baking-powder.html" },
+  { "label": "Gum-free, yeast-free GF bread (350°F reference)", "url": "https://sweetsensitivefree.com/wprm_print/soft-gluten-free-yeast-free-bread-vegan-homemade-flour-blend" },
+  { "label": "Chia loaf reference (Power Hungry)", "url": "https://www.powerhungry.com/2023/01/16/3-ingredient-chia-millet-bread-v-gf-oil-free/" },
+  { "label": "Dairy-free brown rice pancakes (ratio reference)", "url": "https://www.mashupmom.com/gluten-free-brown-rice-flour-pancakes-also-dairy-free/" },
+  { "label": "1-2-3 Gluten Free buckwheat mix ingredients", "url": "https://plainfoodsafe.com/product/0182566000035" },
+  { "label": "Ener-G yeast-free loaf ingredients", "url": "https://foodisgood.com/product/ener-g-brown-rice-yeast-free-loaf-gluten-free" },
+  { "label": "Ener-G Foods listed as closed (Yelp)", "url": "https://www.yelp.com/biz/ener-g-foods-seattle" }
+ ]
+}

@@ -1,0 +1,65 @@
+/* Recipe viewer. Builds on ../style.css tokens. */
+.top a.sync { text-decoration: none; color: var(--accent); }
+
+.intro { margin: 0 0 16px; }
+.section-title { font-size: 13px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 24px 0 8px; }
+
+.rcard {
+  display: block; color: inherit; text-decoration: none; background: var(--surface);
+  border: 1px solid var(--border); border-radius: 18px; overflow: hidden; margin-bottom: 14px; box-shadow: var(--shadow);
+}
+.rcard img { display: block; width: 100%; height: auto; }
+.rcard .body { padding: 12px 14px 14px; display: grid; gap: 6px; }
+.rcard h2 { margin: 0; font-size: 18px; }
+.rcard p { margin: 0; }
+.kind { font-size: 12px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+
+.badge { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 600; padding: 4px 10px; border-radius: 99px; width: fit-content; }
+.badge.safe { background: color-mix(in srgb, var(--safe) 15%, transparent); color: var(--safe); }
+.badge.ask { background: color-mix(in srgb, var(--intolerance) 18%, transparent); color: #9a6b00; }
+.badge.avoid { background: color-mix(in srgb, var(--reaction) 15%, transparent); color: var(--reaction); }
+@media (prefers-color-scheme: dark) { .badge.ask { color: var(--intolerance); } }
+
+.back { display: inline-block; margin: 0 0 12px; text-decoration: none; }
+.hero { display: block; width: 100%; height: auto; border-radius: 18px; }
+.detail h2:not(.section-title) { font-size: 24px; margin: 14px 0 4px; }
+.meta { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 8px 0 4px; }
+
+.units { display: inline-flex; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 3px; margin: 12px 0 4px; }
+.units button { border: 0; background: none; color: var(--muted); font: inherit; font-size: 14px; padding: 6px 12px; border-radius: 7px; cursor: pointer; }
+.units button[aria-pressed="true"] { background: var(--bg); color: var(--text); font-weight: 600; }
+
+.ing-group h3 { font-size: 13px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 16px 0 6px; }
+.ing { display: grid; grid-template-columns: 10px 1fr; gap: 4px 10px; align-items: start; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px; margin-bottom: 6px; }
+.ing .dot { margin-top: 6px; }
+.ing .dot.neutral { background: none; border: 2px solid var(--border); }
+.ing .line b { font-weight: 600; margin-right: 6px; }
+.ing small { grid-column: 2; color: var(--muted); }
+.ing small.warn { color: #9a6b00; }
+@media (prefers-color-scheme: dark) { .ing small.warn { color: var(--intolerance); } }
+
+.legend { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 13px; color: var(--muted); margin-top: 8px; }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+
+ol.steps { list-style: none; counter-reset: step; padding: 0; margin: 0; display: grid; gap: 10px; }
+ol.steps li { counter-increment: step; background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 12px 14px; display: grid; gap: 10px; }
+ol.steps li::before { content: counter(step); font-weight: 700; color: var(--accent); }
+ol.steps li { grid-template-columns: 22px 1fr; }
+ol.steps li p { margin: 0; }
+ol.steps li img { grid-column: 1 / -1; width: 100%; max-width: 320px; height: auto; border-radius: 12px; justify-self: center; }
+
+.checks { display: grid; gap: 8px; }
+.check { background: var(--surface); border: 1px solid var(--border); border-left: 4px solid var(--intolerance); border-radius: 10px; padding: 10px 12px; }
+.check b { display: block; margin-bottom: 2px; }
+.check p { margin: 0; font-size: 14px; color: var(--muted); }
+
+.tips { margin: 0; padding-left: 20px; display: grid; gap: 6px; }
+
+.store { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 12px 14px; margin-bottom: 10px; display: grid; gap: 6px; }
+.store h3 { margin: 0; font-size: 16px; }
+.store p { margin: 0; font-size: 14px; }
+.store details summary { cursor: pointer; font-size: 14px; color: var(--accent); }
+.store .ing { margin-top: 6px; }
+
+.sources { font-size: 14px; padding-left: 20px; display: grid; gap: 4px; }
+.foot { font-size: 13px; margin-top: 24px; }

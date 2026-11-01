@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" role="img" aria-labelledby="t">
+  <title id="t">Thick batter being stirred in a mixing bowl</title>
+  <rect width="240" height="160" rx="18" fill="#f3ead8"/>
+  <ellipse cx="120" cy="138" rx="78" ry="8" fill="#d9c9a8"/>
+  <!-- spatula behind rim -->
+  
+  <!-- bowl -->
+  <path d="M38 70 Q42 136 120 136 Q198 136 202 70 Z" fill="#6f9fbd"/>
+  <path d="M52 92 Q62 124 104 130" fill="none" stroke="#9cc0d6" stroke-width="5" stroke-linecap="round"/>
+  <ellipse cx="120" cy="70" rx="82" ry="16" fill="#5a88a5"/>
+  <!-- batter -->
+  <ellipse cx="120" cy="71" rx="72" ry="12" fill="#e8d3a2"/>
+  <path d="M84 70 Q104 62 122 70 T156 70" fill="none" stroke="#d2b77f" stroke-width="3" stroke-linecap="round"/>
+  <g fill="#4a3d34"><circle cx="96" cy="74" r="1.6"/><circle cx="140" cy="66" r="1.6"/><circle cx="160" cy="73" r="1.6"/><circle cx="110" cy="66" r="1.6"/></g>
+  <path d="M132 70 L178 14" stroke="#c98f52" stroke-width="8" stroke-linecap="round"/>
+  <!-- ripple where the spatula enters the batter -->
+  <ellipse cx="132" cy="70" rx="12" ry="4" fill="none" stroke="#d2b77f" stroke-width="2.5"/>
+</svg>

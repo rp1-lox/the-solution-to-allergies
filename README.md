@@ -21,6 +21,10 @@ Scan a barcode (looked up in [Open Food Facts](https://world.openfoodfacts.org))
 
 Hidden sources are handled by `data/rules.json` (e.g. dextrose → usually corn, powdered sugar → contains cornstarch, cocoa butter → not dairy).
 
+## Recipes
+
+`recipes/` is a recipe viewer (linked from the app header) for yeast-free, rice-based bread and pancakes. Each ingredient is checked live against your answers, and each recipe lists the label checks it needs (corn-free baking powder, plain salt, and so on). Recipes live in `recipes/recipes.json`; illustrations are in `recipes/img/`.
+
 ## Restaurants and menus
 
 `PROFILE.md` is a plain-language summary of your answers plus instructions for an AI. It rebuilds automatically (GitHub Action) whenever your answers change. To check a menu, give an AI the restaurant's menu link and this link:

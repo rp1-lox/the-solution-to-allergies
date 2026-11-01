@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" role="img" aria-labelledby="t">
+  <title id="t">Loaf in a pan with a thermometer reading 205 degrees</title>
+  <rect width="240" height="160" rx="18" fill="#f3ead8"/>
+  <ellipse cx="108" cy="140" rx="80" ry="7" fill="#d9c9a8"/>
+  <!-- loaf dome -->
+  <path d="M40 84 Q40 46 108 44 Q176 46 176 84 Z" fill="#c07a38"/>
+  <path d="M60 66 Q84 54 108 58 T156 64" fill="none" stroke="#8f5622" stroke-width="4" stroke-linecap="round"/>
+  <!-- pan -->
+  <path d="M28 82 L188 82 L176 136 L40 136 Z" fill="#7d8a97"/>
+  <rect x="24" y="78" width="168" height="10" rx="4" fill="#97a3ae"/>
+  <path d="M46 98 L170 98" stroke="#93a0ab" stroke-width="3"/>
+  <!-- thermometer -->
+  <path d="M128 60 L152 34" stroke="#9a9fa6" stroke-width="4" stroke-linecap="round"/>
+    <rect x="146" y="10" width="76" height="34" rx="9" fill="#2f3a44"/>
+  <rect x="152" y="15" width="64" height="24" rx="5" fill="#bfe3c8"/>
+  <text x="184" y="33" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#1f3a2a">205°F</text>
+</svg>

@@ -40,6 +40,8 @@ code { font-size: .9em; }
 
 .top { display: flex; align-items: center; justify-content: space-between; padding: 16px 0 8px; }
 .top h1 { font-size: 20px; margin: 0; }
+.top-links { display: flex; gap: 8px; align-items: center; }
+.top-links a.sync { text-decoration: none; color: var(--accent); }
 .sync { font-size: 12px; padding: 4px 10px; border-radius: 99px; background: var(--surface); border: 1px solid var(--border); color: var(--muted); }
 .sync.ok { color: var(--safe); }
 .sync.pending { color: var(--intolerance); }

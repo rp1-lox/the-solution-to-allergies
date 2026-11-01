@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-labelledby="t">
+  <title id="t">A stack of rice pancakes with maple syrup, banana and blueberries</title>
+  <rect width="480" height="300" rx="24" fill="#f6ecd9"/>
+  <!-- plate -->
+  <ellipse cx="240" cy="236" rx="178" ry="38" fill="#e3d9c6"/>
+  <ellipse cx="240" cy="232" rx="178" ry="36" fill="#ffffff"/>
+  <ellipse cx="240" cy="232" rx="132" ry="24" fill="#f4efe6"/>
+  <!-- pancakes, bottom to top -->
+  <g>
+    <ellipse cx="240" cy="226" rx="124" ry="24" fill="#b97a33"/>
+    <ellipse cx="240" cy="214" rx="124" ry="24" fill="#e4a95a"/>
+    <ellipse cx="240" cy="206" rx="124" ry="24" fill="#b97a33"/>
+    <ellipse cx="240" cy="194" rx="124" ry="24" fill="#e7ae60"/>
+    <ellipse cx="240" cy="186" rx="124" ry="24" fill="#b97a33"/>
+    <ellipse cx="240" cy="174" rx="124" ry="24" fill="#e4a95a"/>
+    <ellipse cx="240" cy="166" rx="124" ry="24" fill="#b97a33"/>
+    <ellipse cx="240" cy="154" rx="124" ry="24" fill="#d89a4c"/>
+    <ellipse cx="240" cy="152" rx="96" ry="16" fill="#e6b26a"/>
+  </g>
+  <!-- syrup -->
+  <g fill="#b0601f" opacity=".9">
+    <path d="M172 152 Q170 140 200 138 Q240 134 282 138 Q312 142 310 152 Q308 162 280 165 Q240 169 200 166 Q174 162 172 152 Z"/>
+    <rect x="195" y="160" width="9" height="24" rx="4.5"/><circle cx="199.5" cy="185" r="6"/>
+    <rect x="242" y="162" width="9" height="36" rx="4.5"/><circle cx="246.5" cy="199" r="6"/>
+    <rect x="284" y="158" width="8" height="16" rx="4"/><circle cx="288" cy="175" r="5.5"/>
+  </g>
+  <path d="M190 146 Q230 139 270 142" fill="none" stroke="#e39a5a" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+  <!-- banana slices -->
+  <g>
+    <ellipse cx="224" cy="138" rx="17" ry="9" fill="#f8e7a2" stroke="#e2c873" stroke-width="2"/>
+    <ellipse cx="262" cy="134" rx="17" ry="9" fill="#f8e7a2" stroke="#e2c873" stroke-width="2"/>
+    <g fill="#b89a5a"><circle cx="220" cy="137" r="1.4"/><circle cx="226" cy="140" r="1.4"/><circle cx="228" cy="136" r="1.4"/>
+      <circle cx="258" cy="133" r="1.4"/><circle cx="264" cy="136" r="1.4"/><circle cx="266" cy="132" r="1.4"/></g>
+  </g>
+  <!-- blueberries -->
+  <g fill="#3f4f9a">
+    <circle cx="244" cy="128" r="8"/><circle cx="198" cy="146" r="7"/><circle cx="288" cy="146" r="7"/>
+    <circle cx="120" cy="242" r="8"/><circle cx="136" cy="250" r="7"/><circle cx="364" cy="244" r="7"/>
+  </g>
+  <g fill="#a8b4e6"><circle cx="241" cy="125" r="2"/><circle cx="196" cy="143" r="1.8"/><circle cx="286" cy="143" r="1.8"/>
+    <circle cx="117" cy="239" r="2"/><circle cx="134" cy="247" r="1.8"/><circle cx="362" cy="241" r="1.8"/></g>
+  <!-- steam -->
+  <g fill="none" stroke="#cdb994" stroke-width="4" stroke-linecap="round">
+    <path d="M206 112 q-8 -12 0 -24 q8 -12 0 -24"/>
+    <path d="M240 104 q-8 -12 0 -24 q8 -12 0 -24"/>
+    <path d="M274 112 q-8 -12 0 -24 q8 -12 0 -24"/>
+  </g>
+</svg>
