@@ -115,6 +115,7 @@ function renderList() {
       ${v}
       <p>${esc(s.text)}</p>
       ${s.ask ? `<p class="muted">${esc(s.ask)}</p>` : ''}
+      ${s.buy && data.shopping[s.buy] ? `<p><a href="${esc(amazonUrl(data.shopping[s.buy].query))}" target="_blank" rel="noopener">Search Amazon ↗</a></p>` : ''}
       ${rows ? `<details><summary>Ingredients</summary>${rows}</details>` : ''}
     </div>`;
   }).join('');

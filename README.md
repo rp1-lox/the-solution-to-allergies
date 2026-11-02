@@ -23,7 +23,7 @@ Hidden sources are handled by `data/rules.json` (e.g. dextrose → usually corn,
 
 ## Recipes
 
-`recipes/` is a recipe viewer (linked from the app header) for yeast-free, rice-based bread and pancakes. Each ingredient is checked live against your answers, and each recipe lists the label checks it needs (corn-free baking powder, plain salt, and so on). Recipes live in `recipes/recipes.json`; illustrations are in `recipes/img/`.
+`recipes/` is a recipe viewer (linked from the app header) for yeast-free, rice-based bread and pancakes. Each ingredient is checked live against your answers, and each recipe lists the label checks it needs (corn-free baking powder, plain salt, and so on). Tapping an ingredient opens an Amazon search for a brand picked for its allergen-free facility (`shopping` in `recipes/recipes.json`). Recipes live in `recipes/recipes.json`; illustrations are in `recipes/img/`.
 
 ## Restaurants and menus
 
