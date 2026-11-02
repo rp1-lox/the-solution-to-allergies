@@ -66,6 +66,13 @@ const badge = (v) => `<span class="badge ${v.level}">${v.level === 'safe' ? '✓
 
 // ---------- rendering ----------
 
+const amazonUrl = (query) => `https://www.amazon.com/s?k=${encodeURIComponent(query)}`;
+const FACILITY = {
+  confirmed: 'Maker confirms an allergen-free facility',
+  partial: 'Facility partly confirmed',
+  unknown: 'Facility not confirmed: ask the maker',
+};
+
 function ingRow(item, checksById) {
   const { status } = checkItem(item);
   const dot = item.ids && item.ids.length ? (status || 'untried') : 'neutral';
@@ -73,13 +80,18 @@ function ingRow(item, checksById) {
   const listed = (item.ids || []).map((id) => `${names[id] || id}: ${STATUS_LABEL[statusOf(id)] || 'Not on your list'}`);
   const listLine = item.listNote || (listed.length ? `Your list: ${listed.join(item.any ? ' or ' : ' · ')}` : 'Plain ingredient, not on your list');
   const check = item.check && checksById[item.check];
-  return `<div class="ing">
+  const shop = item.buy && data.shopping && data.shopping[item.buy];
+  const inner = `
     <span class="dot ${dot}"></span>
     <span class="line">${qty ? `<b>${esc(qty)}</b>` : ''}${esc(item.item)}</span>
     <small>${esc(listLine)}</small>
     ${item.note ? `<small>${esc(item.note)}</small>` : ''}
     ${check ? `<small class="warn">Label check: ${esc(check.title)}</small>` : ''}
-  </div>`;
+    ${shop ? `<small class="shop">Amazon: ${esc(shop.pick)} ↗</small>
+    <small class="facility ${esc(shop.confidence)}">${esc(FACILITY[shop.confidence] || '')}${shop.facility ? `. ${esc(shop.facility)}` : ''}</small>` : ''}`;
+  return shop
+    ? `<a class="ing buy" href="${esc(amazonUrl(shop.query))}" target="_blank" rel="noopener" title="Search Amazon for ${esc(shop.pick)}">${inner}</a>`
+    : `<div class="ing">${inner}</div>`;
 }
 
 function renderList() {
@@ -155,7 +167,7 @@ function renderRecipe(r) {
       <div class="checks">${checks}</div>
 
       ${r.tips && r.tips.length ? `<h2 class="section-title">Tips</h2><ul class="tips">${r.tips.map((t) => `<li>${esc(t)}</li>`).join('')}</ul>` : ''}
-      <p class="foot muted">Colors come from your answers in Allergy Swipe. A green dot means the ingredient is safe for you, not that every brand is. Read the label checks above.</p>
+      <p class="foot muted">Tap an ingredient with an Amazon line to search Amazon for the brand picked for it. Results include other brands, so make sure the one you buy is the picked brand and re-read its label. Colors come from your answers in Allergy Swipe. A green dot means the ingredient is safe for you, not that every brand is. Read the label checks above.</p>
     </div>`;
 
   $app.querySelectorAll('[data-units]').forEach((b) => b.addEventListener('click', () => {
