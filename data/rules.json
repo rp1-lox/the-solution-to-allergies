@@ -379,14 +379,25 @@
    "match": [
     "almond butter",
     "almond milk",
-    "almond flour",
-    "almond meal",
     "almond paste",
     "marzipan"
    ],
    "is": [
     "almond"
    ]
+  },
+  {
+   "match": [
+    "almond flour",
+    "almond meal",
+    "blanched almond flour",
+    "superfine almond flour",
+    "fine almond flour"
+   ],
+   "is": [
+    "almond-flour"
+   ],
+   "note": "Almond flour is tolerated; whole almonds are not"
   },
   {
    "match": [

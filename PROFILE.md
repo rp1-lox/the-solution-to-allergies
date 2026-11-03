@@ -1,6 +1,6 @@
 # Allergy profile
 
-Generated from this repo's data by `scripts/build-profile.js`. Answers last changed 2026-10-17.
+Generated from this repo's data by `scripts/build-profile.js`. Answers last changed 2026-11-03.
 
 ## Instructions for an AI reading this
 
@@ -61,7 +61,7 @@ You are helping someone with severe food allergies decide what they can eat. Whe
 - **Shellfish:** Shrimp, Crab, Lobster, Scallop
 - **Grains:** White rice, Brown rice, Wild rice, Quinoa, Buckwheat
 - **Legumes:** Lentil, Black bean
-- **Tree nuts:** Coconut
+- **Tree nuts:** Almond flour (Almond flour is fine; whole almonds are an intolerance), Coconut
 - **Seeds:** Chia seed
 - **Vegetables:** Tomato, Potato, Bell pepper, Eggplant, Chili pepper, Sweet potato, Onion, Garlic, Leek, Carrot, Celery, Broccoli, Cauliflower, Cabbage, Brussels sprouts, Kale, Spinach, Lettuce, Arugula, Bok choy, Cucumber, Zucchini, Butternut squash, Beet, Asparagus, Artichoke, Okra
 - **Fungi & yeast:** Button mushroom, Shiitake, Portobello
@@ -80,7 +80,7 @@ You are helping someone with severe food allergies decide what they can eat. Whe
 - whey protein, whey protein concentrate, whey protein isolate, sweet whey, whey powder, hydrolyzed whey → Whey
 - butter flavor, butter flavour, natural butter flavor, artificial butter flavor → could be Cow's milk / other (Butter flavor may or may not contain milk)
 - milk chocolate, white chocolate, milk chocolate chips → Cow's milk + Cacao
-- almond butter, almond milk, almond flour, almond meal, almond paste, marzipan → Almond
+- almond butter, almond milk, almond paste, marzipan → Almond
 - sunflower butter, sunbutter, sunflower seed butter, sunflower, sunflower kernels → Sunflower seed
 - oat, oat milk, oat flour, rolled oats, oatmeal, oat fiber, … → Oats
 - soy milk, soymilk → Soybean
