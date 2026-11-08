@@ -213,7 +213,7 @@
      "text": "Whisk all the dry ingredients together, including the baking powder and soda."
     },
     {
-     "text": "In another bowl, whisk the psyllium into the warm water, oil, honey, vinegar, and lemon juice. Whisk fast; it thickens within a minute. Let it sit a few minutes until it's like thick jelly."
+     "text": "In another bowl, whisk the psyllium into the warm water, oil, honey, vinegar, and lemon juice. Whisk fast; it turns into thick jelly within a minute or two. That's normal. Go straight to the next step so it doesn't set too firm to mix in."
     },
     {
      "text": "Add the gel to the dry ingredients. Mix with a spatula, then your hands, just until a soft, slightly tacky dough forms (about 30 seconds). Don't overwork it; the baking powder is already working, so keep moving.",
@@ -342,7 +342,7 @@
       {
        "g": "70 g",
        "us": "5 Tbsp",
-       "item": "Water (for the chia)",
+       "item": "Water",
        "ids": []
       },
       {
@@ -409,11 +409,7 @@
      "text": "Heat the oven to 350°F. Line the loaf pan with a parchment sling and rub a little oil on the short ends."
     },
     {
-     "text": "Stir the ground chia into the water and let it gel for a few minutes.",
-     "image": "img/step-chia.svg"
-    },
-    {
-     "text": "Mash the bananas well, then whisk in the sugar, oil, vinegar, and chia gel.",
+     "text": "Mash the bananas well. Whisk in the ground chia and its water right away (don't let the chia gel on its own first, or it clumps), then whisk in the sugar, oil, and vinegar. Let it sit while you measure the dry ingredients.",
      "image": "img/step-banana.svg"
     },
     {
