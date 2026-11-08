@@ -66,22 +66,13 @@
        "buy": "brown-rice-flour"
       },
       {
-       "g": "70 g",
-       "us": "scant ½ cup",
+       "g": "100 g",
+       "us": "⅔ cup",
        "item": "White rice flour",
        "ids": [
         "white-rice"
        ],
        "buy": "white-rice-flour"
-      },
-      {
-       "g": "30 g",
-       "us": "3 Tbsp",
-       "item": "Sweet (glutinous) rice flour",
-       "ids": [
-        "white-rice"
-       ],
-       "buy": "sweet-rice-flour"
       },
       {
        "g": "70 g",
@@ -245,7 +236,7 @@
     }
    ],
    "tips": [
-    "Weigh the flours. Cups of rice flour vary a lot, and that's a common cause of gummy gluten-free bread.",
+    "Weigh the flours if you can. If you use cups, spoon the flour into the cup and level it off; scooping straight from the bag packs in extra flour and makes it dense.",
     "If the rolls spread flat, use 20 g less water next time. If the middle is gummy, bake longer, to temperature.",
     "A purple or grey tint is harmless and comes from some psyllium brands. Try another brand if it bothers you.",
     "Freeze extras and toast or warm them before eating.",
@@ -439,6 +430,7 @@
     }
    ],
    "tips": [
+    "Weigh the flours if you can. If you use cups, spoon the flour into the cup and level it off; scooping straight from the bag packs in extra flour and makes it dense.",
     "The browner the bananas, the sweeter and moister the bread.",
     "Blueberries or chopped dates are good stir-ins. Skip chocolate chips unless you've checked them for dairy.",
     "Slice and freeze; toast slices straight from frozen."
