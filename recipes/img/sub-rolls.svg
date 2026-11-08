@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-labelledby="t">
+  <title id="t">Rice sub rolls, one split and filled with beef, tomato and lettuce</title>
+  <rect width="480" height="300" rx="24" fill="#f3ead8"/>
+  <!-- board (top surface + front edge) -->
+  <rect x="34" y="126" width="412" height="122" rx="16" fill="#d3a46c"/>
+  <rect x="34" y="236" width="412" height="26" rx="11" fill="#b9864f"/>
+  <path d="M60 150 L420 150 M60 196 L420 196" stroke="#c99761" stroke-width="2"/>
+  <ellipse cx="174" cy="146" rx="122" ry="7" fill="#9c6c3b" opacity=".3"/>
+  <!-- back roll (whole), sitting behind and to the left -->
+  <rect x="48" y="84" width="250" height="58" rx="29" fill="#b97a37"/>
+  <path d="M70 100 Q172 82 276 100" fill="none" stroke="#d39a52" stroke-width="8" stroke-linecap="round"/>
+  <g stroke="#8f5622" stroke-width="4.5" stroke-linecap="round">
+    <line x1="96" y1="106" x2="114" y2="92"/><line x1="142" y1="106" x2="160" y2="92"/><line x1="188" y1="106" x2="206" y2="92"/>
+  </g>
+    <!-- sandwich: bottom bun -->
+  <ellipse cx="282" cy="242" rx="152" ry="7" fill="#9c6c3b" opacity=".35"/>
+  <path d="M132 210 Q132 242 166 242 L398 242 Q432 242 432 210 Z" fill="#d39a52"/>
+  <rect x="132" y="202" width="300" height="10" rx="3" fill="#f2deb0"/>
+  <!-- beef -->
+  <path d="M128 202 Q150 192 172 200 T216 200 T260 200 T304 200 T348 200 T392 200 T436 200 L436 206 L128 206 Z" fill="#8c4a2f"/>
+  <!-- tomato -->
+  <g fill="#e0533d">
+    <ellipse cx="170" cy="192" rx="20" ry="7"/><ellipse cx="226" cy="193" rx="20" ry="7"/>
+    <ellipse cx="282" cy="192" rx="20" ry="7"/><ellipse cx="338" cy="193" rx="20" ry="7"/><ellipse cx="394" cy="192" rx="20" ry="7"/>
+  </g>
+  <!-- lettuce -->
+  <path d="M126 186 Q140 174 154 184 T182 184 T210 184 T238 184 T266 184 T294 184 T322 184 T350 184 T378 184 T406 184 T438 184 L438 190 L126 190 Z" fill="#7cb342"/>
+  <!-- top bun -->
+  <rect x="134" y="168" width="296" height="10" rx="3" fill="#f2deb0"/>
+  <path d="M134 172 Q134 134 184 130 L380 130 Q430 134 430 172 Z" fill="#cf9349"/>
+  <path d="M160 150 Q280 128 404 150" fill="none" stroke="#e6b06b" stroke-width="8" stroke-linecap="round"/>
+  <g stroke="#a86a2c" stroke-width="5" stroke-linecap="round">
+    <line x1="190" y1="156" x2="208" y2="142"/><line x1="240" y1="156" x2="258" y2="142"/>
+    <line x1="290" y1="156" x2="308" y2="142"/><line x1="340" y1="156" x2="358" y2="142"/>
+  </g>
+</svg>

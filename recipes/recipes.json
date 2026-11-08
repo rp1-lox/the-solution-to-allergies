@@ -1,6 +1,11 @@
 {
  "labelChecks": [
   {
+   "id": "psyllium",
+   "title": "Test psyllium before baking with it",
+   "text": "Psyllium is on your not-tried list, and psyllium allergy does happen (mostly from breathing in the powder). Given your anaphylaxis history, check with your allergist first. For a first try, stir a small amount (well under a teaspoon) into a full glass of water and drink it right away, then watch how you feel. Pour the powder gently so you don't breathe it in. If it goes fine, mark it in Allergy Swipe. Terrasoul says its psyllium is packed in a facility that also processes tree nuts."
+  },
+  {
    "id": "baking-powder",
    "title": "Baking powder must be corn-free",
    "text": "Most baking powder (Rumford, Clabber Girl, Bob's Red Mill) contains cornstarch. Use Hain Featherweight (monocalcium phosphate, potato starch, potassium bicarbonate). Hain doesn't guarantee against corn cross-contact. It starts reacting as soon as it gets wet, so bake right after it goes in."
@@ -33,16 +38,16 @@
  ],
  "recipes": [
   {
-   "id": "rice-loaf",
-   "title": "Yeast-free rice loaf",
+   "id": "rice-sub-rolls",
+   "title": "Rice sub rolls",
    "kind": "Bread",
-   "image": "img/rice-loaf.svg",
-   "summary": "A sliceable quick bread made from brown rice flour. No yeast, eggs, gums, or psyllium; chia and gelatin hold it together.",
-   "yield": "One 8.5 × 4.5 in loaf",
+   "image": "img/sub-rolls.svg",
+   "summary": "Soft, slightly chewy sub-style rolls with no yeast, eggs, or gums. Psyllium gives them bread-like structure, and baking with steam gives them a thin crust.",
+   "yield": "4 rolls, about 7 inches long",
    "checks": [
+    "psyllium",
     "baking-powder",
     "salt",
-    "chia",
     "sweetener",
     "oil",
     "flours"
@@ -52,27 +57,35 @@
      "name": "Dry",
      "items": [
       {
-       "g": "280 g",
-       "us": "1¾ cups",
-       "item": "Brown rice flour",
+       "g": "140 g",
+       "us": "¾ cup + 2 Tbsp",
+       "item": "Superfine brown rice flour",
        "ids": [
         "brown-rice"
        ],
        "buy": "brown-rice-flour"
       },
       {
-       "g": "40 g",
-       "us": "¼ cup",
+       "g": "70 g",
+       "us": "scant ½ cup",
+       "item": "White rice flour",
+       "ids": [
+        "white-rice"
+       ],
+       "buy": "white-rice-flour"
+      },
+      {
+       "g": "30 g",
+       "us": "3 Tbsp",
        "item": "Sweet (glutinous) rice flour",
        "ids": [
         "white-rice"
        ],
-       "note": "Sticky white rice, ground. Helps hold the loaf together.",
        "buy": "sweet-rice-flour"
       },
       {
-       "g": "60 g",
-       "us": "½ cup",
+       "g": "70 g",
+       "us": "½ cup + 1 Tbsp",
        "item": "Tapioca starch",
        "ids": [
         "tapioca-starch"
@@ -80,14 +93,32 @@
        "buy": "tapioca-starch"
       },
       {
-       "g": "40 g",
-       "us": "¼ cup",
+       "g": "30 g",
+       "us": "3 Tbsp",
        "item": "Potato starch",
        "ids": [
         "potato-starch"
        ],
-       "note": "Starch, not potato flour.",
        "buy": "potato-starch"
+      },
+      {
+       "g": "2½ tsp",
+       "us": "2½ tsp",
+       "item": "Corn-free baking powder",
+       "ids": [
+        "baking-powder"
+       ],
+       "check": "baking-powder",
+       "buy": "baking-powder"
+      },
+      {
+       "g": "¼ tsp",
+       "us": "¼ tsp",
+       "item": "Baking soda",
+       "ids": [
+        "baking-soda"
+       ],
+       "buy": "baking-soda"
       },
       {
        "g": "6 g",
@@ -100,53 +131,28 @@
      ]
     },
     {
-     "name": "Binders",
-     "items": [
-      {
-       "g": "30 g",
-       "us": "4 Tbsp",
-       "item": "Chia seeds, ground at home",
-       "ids": [
-        "chia-seed"
-       ],
-       "check": "chia",
-       "buy": "chia"
-      },
-      {
-       "g": "180 g",
-       "us": "¾ cup",
-       "item": "Warm water (for the chia)",
-       "ids": []
-      },
-      {
-       "g": "6 g",
-       "us": "2 tsp",
-       "item": "Unflavored gelatin",
-       "ids": [
-        "gelatin"
-       ],
-       "buy": "gelatin"
-      },
-      {
-       "g": "60 g",
-       "us": "¼ cup",
-       "item": "Cool water (for the gelatin)",
-       "ids": []
-      }
-     ]
-    },
-    {
      "name": "Wet",
      "items": [
       {
-       "g": "190 g",
-       "us": "¾ cup + 1 Tbsp",
-       "item": "Warm water",
+       "g": "24 g",
+       "us": "3 Tbsp",
+       "item": "Psyllium husk powder",
+       "ids": [
+        "psyllium-husk"
+       ],
+       "check": "psyllium",
+       "buy": "psyllium",
+       "note": "Powder, not whole husks."
+      },
+      {
+       "g": "300 g",
+       "us": "1¼ cups + 1 Tbsp",
+       "item": "Very warm water",
        "ids": []
       },
       {
-       "g": "40 g",
-       "us": "3 Tbsp",
+       "g": "28 g",
+       "us": "2 Tbsp",
        "item": "Extra virgin olive oil",
        "ids": [
         "olive-oil"
@@ -155,7 +161,7 @@
        "buy": "olive-oil"
       },
       {
-       "g": "20 g",
+       "g": "21 g",
        "us": "1 Tbsp",
        "item": "Honey",
        "ids": [
@@ -172,15 +178,129 @@
         "apple-cider-vinegar"
        ],
        "buy": "acv"
+      },
+      {
+       "g": "5 g",
+       "us": "1 tsp",
+       "item": "Lemon juice",
+       "ids": [
+        "lemon"
+       ],
+       "note": "Helps keep psyllium from tinting the bread purple."
       }
      ]
     },
     {
-     "name": "Leavening (added last)",
+     "name": "Equipment",
      "items": [
       {
-       "g": "4 tsp",
-       "us": "1 Tbsp + 1 tsp",
+       "g": "",
+       "us": "",
+       "item": "Instant-read thermometer",
+       "ids": [],
+       "listNote": "Equipment",
+       "buy": "thermometer"
+      },
+      {
+       "g": "",
+       "us": "",
+       "item": "Sheet pan, parchment, and a metal (not glass) pan for steam",
+       "ids": [],
+       "listNote": "Equipment"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "First time only: test psyllium on its own before baking with it (see the label checks below), then mark it in Allergy Swipe."
+    },
+    {
+     "text": "Put a metal baking pan on the lowest oven rack and heat the oven to 450°F. Line a sheet pan with parchment. Bring a kettle of water to a boil."
+    },
+    {
+     "text": "Whisk all the dry ingredients together, including the baking powder and soda."
+    },
+    {
+     "text": "In another bowl, whisk the psyllium into the warm water, oil, honey, vinegar, and lemon juice. Whisk fast; it thickens within a minute. Let it sit a few minutes until it's like thick jelly."
+    },
+    {
+     "text": "Add the gel to the dry ingredients. Mix with a spatula, then your hands, just until a soft, slightly tacky dough forms (about 30 seconds). Don't overwork it; the baking powder is already working, so keep moving.",
+     "image": "img/step-mix.svg"
+    },
+    {
+     "text": "With wet hands, divide the dough into 4. Shape each into a log about 7 inches long and 2 inches wide, keeping it tall rather than flat, since it spreads. Space them 2 inches apart. Brush with water and cut 3–4 shallow diagonal slashes on top.",
+     "image": "img/step-shape.svg"
+    },
+    {
+     "text": "Slide the rolls in. Carefully pour about 1 cup of boiling water into the hot pan below (stand back from the steam), close the door, and turn the oven down to 425°F. Bake 20 minutes.",
+     "image": "img/step-steam.svg"
+    },
+    {
+     "text": "Take out the water pan, lower the oven to 400°F, and bake 10–15 minutes more, until golden and the center of a roll reads 205–210°F. Without a thermometer: the bottom sounds hollow when tapped and the roll feels light.",
+     "image": "img/step-bake.svg"
+    },
+    {
+     "text": "Cool on a rack at least 1 hour before slicing; psyllium bread finishes setting as it cools. Split lengthwise for subs."
+    }
+   ],
+   "tips": [
+    "Weigh the flours. Cups of rice flour vary a lot, and that's a common cause of gummy gluten-free bread.",
+    "If the rolls spread flat, use 20 g less water next time. If the middle is gummy, bake longer, to temperature.",
+    "A purple or grey tint is harmless and comes from some psyllium brands. Try another brand if it bothers you.",
+    "Freeze extras and toast or warm them before eating.",
+    "Untested recipe, built from published yeast-free psyllium rolls. Expect to adjust after the first batch."
+   ]
+  },
+  {
+   "id": "banana-bread",
+   "title": "Banana bread",
+   "kind": "Quick bread",
+   "image": "img/banana-bread.svg",
+   "summary": "Moist, tender banana bread from rice and almond flour, bound with chia. Grew out of the first loaf, which came out more like cake than bread.",
+   "yield": "One 8.5 × 4.5 in loaf",
+   "checks": [
+    "baking-powder",
+    "salt",
+    "chia",
+    "sweetener",
+    "oil",
+    "flours"
+   ],
+   "groups": [
+    {
+     "name": "Dry",
+     "items": [
+      {
+       "g": "200 g",
+       "us": "1⅓ cups",
+       "item": "Brown rice flour",
+       "ids": [
+        "brown-rice"
+       ],
+       "buy": "brown-rice-flour"
+      },
+      {
+       "g": "60 g",
+       "us": "½ cup + 1 Tbsp",
+       "item": "Almond flour",
+       "ids": [
+        "almond-flour"
+       ],
+       "buy": "almond-flour"
+      },
+      {
+       "g": "40 g",
+       "us": "⅓ cup",
+       "item": "Tapioca starch",
+       "ids": [
+        "tapioca-starch"
+       ],
+       "buy": "tapioca-starch"
+      },
+      {
+       "g": "2 tsp",
+       "us": "2 tsp",
        "item": "Corn-free baking powder",
        "ids": [
         "baking-powder"
@@ -196,41 +316,132 @@
         "baking-soda"
        ],
        "buy": "baking-soda"
+      },
+      {
+       "g": "3 g",
+       "us": "½ tsp",
+       "item": "Plain salt",
+       "ids": [],
+       "check": "salt",
+       "buy": "salt"
+      },
+      {
+       "g": "2 g",
+       "us": "1 tsp",
+       "item": "Cinnamon",
+       "ids": [
+        "cinnamon"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Wet",
+     "items": [
+      {
+       "g": "12 g",
+       "us": "1½ Tbsp",
+       "item": "Chia seeds, ground at home",
+       "ids": [
+        "chia-seed"
+       ],
+       "check": "chia",
+       "buy": "chia"
+      },
+      {
+       "g": "70 g",
+       "us": "5 Tbsp",
+       "item": "Water (for the chia)",
+       "ids": []
+      },
+      {
+       "g": "300 g",
+       "us": "1¼ cups (about 3)",
+       "item": "Very ripe bananas, mashed",
+       "ids": [
+        "banana"
+       ]
+      },
+      {
+       "g": "100 g",
+       "us": "½ cup",
+       "item": "Cane sugar or brown sugar",
+       "ids": [
+        "cane-sugar",
+        "brown-sugar"
+       ],
+       "any": true,
+       "check": "sweetener",
+       "buy": "cane-sugar"
+      },
+      {
+       "g": "80 g",
+       "us": "6 Tbsp",
+       "item": "Extra virgin olive oil",
+       "ids": [
+        "olive-oil"
+       ],
+       "check": "oil",
+       "buy": "olive-oil"
+      },
+      {
+       "g": "5 g",
+       "us": "1 tsp",
+       "item": "Apple cider vinegar",
+       "ids": [
+        "apple-cider-vinegar"
+       ],
+       "buy": "acv"
+      }
+     ]
+    },
+    {
+     "name": "Optional (after you've tested psyllium)",
+     "items": [
+      {
+       "g": "3 g",
+       "us": "1 tsp",
+       "item": "Psyllium husk powder",
+       "ids": [
+        "psyllium-husk"
+       ],
+       "check": "psyllium",
+       "buy": "psyllium",
+       "note": "Helps it hold together; fine to leave out.",
+       "optional": true
       }
      ]
     }
    ],
    "steps": [
     {
-     "text": "Heat the oven to 350°F. Line the loaf pan with a parchment sling (paper hanging over the long sides)."
+     "text": "Heat the oven to 350°F. Line the loaf pan with a parchment sling and rub a little oil on the short ends."
     },
     {
-     "text": "Stir the ground chia into the ¾ cup warm water and let it gel. Sprinkle the gelatin over the ¼ cup cool water, let it soften, then warm it gently until it turns clear. Don't boil it.",
+     "text": "Stir the ground chia into the water and let it gel for a few minutes.",
      "image": "img/step-chia.svg"
     },
     {
-     "text": "Whisk the brown rice flour, sweet rice flour, tapioca, potato starch, and salt. Leave out the baking powder and soda for now."
+     "text": "Mash the bananas well, then whisk in the sugar, oil, vinegar, and chia gel.",
+     "image": "img/step-banana.svg"
     },
     {
-     "text": "Mix the chia gel, gelatin, warm water, olive oil, honey, and vinegar. Stir into the flour until smooth. It should be a thick, spoonable batter, like muffin batter. Cover and let it rest 20 minutes so the rice flour softens and isn't gritty.",
+     "text": "Whisk the dry ingredients in another bowl, then fold them into the banana mix just until no dry flour shows.",
      "image": "img/step-mix.svg"
     },
     {
-     "text": "Sprinkle the baking powder and baking soda over the batter and stir until no streaks remain. Scrape into the pan right away and smooth the top with a wet spatula."
-    },
-    {
-     "text": "Bake until the center reads 205–210°F on a thermometer, about 65–75 minutes. If the top is browning fast, lay foil loosely over it.",
+     "text": "Scrape into the pan and smooth the top. Bake 60–70 minutes, laying foil loosely over the top once it's well browned (around 35 minutes), until the center reads 205–210°F.",
      "image": "img/step-bake.svg"
     },
     {
-     "text": "Cool 15 minutes in the pan, lift out by the parchment, and cool completely on a rack before slicing (at least 2 hours). If it's cut warm, the middle will be gummy. It slices best the next day and toasts well.",
+     "text": "Rest 15 minutes in the pan, lift out by the parchment, and cool on a rack at least 2 hours before slicing.",
      "image": "img/step-cool.svg"
     }
    ],
    "tips": [
-    "Weigh the flours if you can. Rice flour cups vary a lot depending on how you scoop.",
-    "Freeze sliced and toast straight from frozen.",
-    "This is an untested recipe built from published gum-free rice loaves. Expect to adjust water or bake time after the first loaf."
+    "The browner the bananas, the sweeter and moister the bread.",
+    "Blueberries or chopped dates are good stir-ins. Skip chocolate chips unless you've checked them for dairy.",
+    "Slice and freeze; toast slices straight from frozen."
    ]
   },
   {
@@ -367,7 +578,8 @@
        "item": "Mashed ripe banana (use 180 g / ¾ cup water instead)",
        "ids": [
         "banana"
-       ]
+       ],
+       "optional": true
       }
      ]
     }
@@ -524,6 +736,30 @@
   {
    "label": "Redmond Real Salt facility info",
    "url": "https://gather.tracegains.com/market/real-salt-redmond-inc"
+  },
+  {
+   "label": "Yeast-free GF rolls (From the Larder)",
+   "url": "https://fromthelarder.co.uk/gluten-free-yeast-free-rolls/"
+  },
+  {
+   "label": "GF rolls with psyllium husk (Aspermühle)",
+   "url": "https://aspermuehle.de/en/Blog-Ratgeber-Rezepte/Gluten-free-rolls-with-psyllium-husks"
+  },
+  {
+   "label": "Psyllium and purple bread (Bakerita)",
+   "url": "https://www.bakerita.com/what-is-psyllium-husk/"
+  },
+  {
+   "label": "Terrasoul psyllium husk powder",
+   "url": "https://www.terrasoul.com/products/psyllium-husk-powder"
+  },
+  {
+   "label": "Psyllium allergy (PubMed)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7998662/"
+  },
+  {
+   "label": "Blue Diamond almond flour facility FAQ",
+   "url": "https://faqs.bluediamond.com/articles/cooking-baking/has-blue-diamond-almond-flour-been-made-on-equipment-that-also-processes-dairy-soy-wheat-eggs-sesame-seeds-or-other-tree-nuts/651ff2ab134c194c931299e3"
   }
  ],
  "shopping": {
@@ -622,6 +858,24 @@
    "query": "1-2-3 Gluten Free Allie's Awesome Buckwheat Pancakes",
    "confidence": "partial",
    "facility": "Made on equipment free of the major allergens, including sesame"
+  },
+  "psyllium": {
+   "pick": "Terrasoul organic psyllium husk powder",
+   "query": "Terrasoul organic psyllium husk powder",
+   "confidence": "partial",
+   "facility": "Packed in a facility that also processes tree nuts; known for not turning bread purple"
+  },
+  "almond-flour": {
+   "pick": "Blue Diamond almond flour",
+   "query": "Blue Diamond almond flour",
+   "confidence": "confirmed",
+   "facility": "Made in a facility that only processes almonds"
+  },
+  "thermometer": {
+   "pick": "ThermoPro TP19H instant-read thermometer",
+   "query": "ThermoPro TP19H instant read thermometer",
+   "confidence": "",
+   "facility": ""
   }
  }
 }

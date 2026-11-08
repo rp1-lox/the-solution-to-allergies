@@ -52,6 +52,7 @@ function checkItem(item) {
 function checkRecipe(items, safeText = 'Every ingredient is on your safe list') {
   const avoid = [], ask = [];
   for (const item of items) {
+    if (item.optional) continue; // shown with its own dot, but doesn't decide the verdict
     const { level } = checkItem(item);
     if (level === 'avoid') avoid.push(item.item);
     else if (level === 'ask') ask.push(item.item);
@@ -88,7 +89,7 @@ function ingRow(item, checksById) {
     ${item.note ? `<small>${esc(item.note)}</small>` : ''}
     ${check ? `<small class="warn">Label check: ${esc(check.title)}</small>` : ''}
     ${shop ? `<small class="shop">Amazon: ${esc(shop.pick)} ↗</small>
-    <small class="facility ${esc(shop.confidence)}">${esc(FACILITY[shop.confidence] || '')}${shop.facility ? `. ${esc(shop.facility)}` : ''}</small>` : ''}`;
+    ${shop.confidence || shop.facility ? `<small class="facility ${esc(shop.confidence)}">${[FACILITY[shop.confidence], shop.facility].filter(Boolean).map(esc).join('. ')}</small>` : ''}` : ''}`;
   return shop
     ? `<a class="ing buy" href="${esc(amazonUrl(shop.query))}" target="_blank" rel="noopener" title="Search Amazon for ${esc(shop.pick)}">${inner}</a>`
     : `<div class="ing">${inner}</div>`;
@@ -179,7 +180,9 @@ function renderRecipe(r) {
 }
 
 function route() {
-  const id = decodeURIComponent(location.hash.slice(1));
+  const ALIASES = { 'rice-loaf': 'rice-sub-rolls' }; // old link from before the loaf was replaced
+  const raw = decodeURIComponent(location.hash.slice(1));
+  const id = ALIASES[raw] || raw;
   const r = data.recipes.find((x) => x.id === id);
   if (r) { renderRecipe(r); document.title = `${r.title} · Recipes`; }
   else { renderList(); document.title = 'Safe Recipes'; }
