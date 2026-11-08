@@ -195,6 +195,14 @@
       {
        "g": "",
        "us": "",
+       "item": "Oven thermometer",
+       "ids": [],
+       "listNote": "Equipment. Ovens often run 25°F or more off from the dial.",
+       "buy": "oven-thermometer"
+      },
+      {
+       "g": "",
+       "us": "",
        "item": "Sheet pan, parchment, and a metal (not glass) pan for steam",
        "ids": [],
        "listNote": "Equipment"
@@ -237,6 +245,7 @@
    ],
    "tips": [
     "Weigh the flours if you can. If you use cups, spoon the flour into the cup and level it off; scooping straight from the bag packs in extra flour and makes it dense.",
+    "Check your oven once: hang the oven thermometer on the middle rack, preheat for 20 minutes, and compare it to the dial. If it's off, set the dial higher or lower to make up the difference.",
     "If the rolls spread flat, use 20 g less water next time. If the middle is gummy, bake longer, to temperature.",
     "A purple or grey tint is harmless and comes from some psyllium brands. Try another brand if it bothers you.",
     "Freeze extras and toast or warm them before eating.",
@@ -402,6 +411,34 @@
        "optional": true
       }
      ]
+    },
+    {
+     "name": "Equipment",
+     "items": [
+      {
+       "g": "",
+       "us": "",
+       "item": "Instant-read thermometer",
+       "ids": [],
+       "listNote": "Equipment",
+       "buy": "thermometer"
+      },
+      {
+       "g": "",
+       "us": "",
+       "item": "Oven thermometer",
+       "ids": [],
+       "listNote": "Equipment. Ovens often run 25°F or more off from the dial.",
+       "buy": "oven-thermometer"
+      },
+      {
+       "g": "",
+       "us": "",
+       "item": "8.5 × 4.5 in loaf pan and parchment",
+       "ids": [],
+       "listNote": "Equipment"
+      }
+     ]
     }
    ],
    "steps": [
@@ -427,6 +464,7 @@
    ],
    "tips": [
     "Weigh the flours if you can. If you use cups, spoon the flour into the cup and level it off; scooping straight from the bag packs in extra flour and makes it dense.",
+    "Check your oven once: hang the oven thermometer on the middle rack, preheat for 20 minutes, and compare it to the dial. If it's off, set the dial higher or lower to make up the difference.",
     "The browner the bananas, the sweeter and moister the bread.",
     "Blueberries or chopped dates are good stir-ins. Skip chocolate chips unless you've checked them for dairy.",
     "Slice and freeze; toast slices straight from frozen."
@@ -862,6 +900,12 @@
   "thermometer": {
    "pick": "ThermoPro TP19H instant-read thermometer",
    "query": "ThermoPro TP19H instant read thermometer",
+   "confidence": "",
+   "facility": ""
+  },
+  "oven-thermometer": {
+   "pick": "CDN ProAccurate oven thermometer",
+   "query": "CDN ProAccurate oven thermometer",
    "confidence": "",
    "facility": ""
   }
