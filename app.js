@@ -1,6 +1,9 @@
 'use strict';
 
 const RESULTS_PATH = 'data/results.json';
+// Demo mode (?demo, or the demo/ page): starts blank, keeps answers in memory only,
+// never reads or writes browser storage, and never talks to GitHub.
+const DEMO = new URLSearchParams(location.search).has('demo');
 const KEYS = { results: 'as-results', gh: 'as-gh', dirty: 'as-dirty', cat: 'as-cat' };
 
 const STATUSES = {
@@ -36,9 +39,11 @@ const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&
 // ---------- storage ----------
 
 function readLS(key, fallback) {
+  if (DEMO) return fallback;
   try { const v = localStorage.getItem(key); return v == null ? fallback : JSON.parse(v); } catch { return fallback; }
 }
 function writeLS(key, value) {
+  if (DEMO) return;
   try { localStorage.setItem(key, JSON.stringify(value)); } catch { /* storage unavailable */ }
 }
 
@@ -54,7 +59,7 @@ function ghConfig() {
     token: saved.token || '',
   };
 }
-const hasToken = () => !!ghConfig().token;
+const hasToken = () => !DEMO && !!ghConfig().token;
 
 function isDirty() { return readLS(KEYS.dirty, false); }
 function setDirty(v) { writeLS(KEYS.dirty, v); }
@@ -510,13 +515,23 @@ function wire() {
   });
 }
 
+function setupDemo() {
+  document.title = 'Allergy Swipe demo';
+  // No saving, so Settings (GitHub sync, export/import) has nothing to do.
+  $('.tabs [data-view="settings"]').remove();
+}
+
 async function init() {
+  if (DEMO) setupDemo();
   wire();
   ingredients = await (await fetch('data/ingredients.json', { cache: 'no-store' })).json();
   results = readLS(KEYS.results, {});
   render();
 
-  if (hasToken()) {
+  if (DEMO) {
+    setSync('', 'Demo');
+    $('#sync').title = 'Demo: answers reset when you reload, and nothing is saved';
+  } else if (hasToken()) {
     sync();
   } else {
     // Read-only: pick up whatever is committed in the repo.
